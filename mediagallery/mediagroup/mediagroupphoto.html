@@ -1,0 +1,3 @@
+	<h1>{{MediaGroup.title | translateDB}}</h1>
+	<h3 ng-bind-html="MediaGroup.description | translateDB"></h3>
+	<gallery-open-carousel items="MediaGroup.chapters[0].medias" mediatype="'MEDIAGROUP'" mgid="MediaGroup.ref" />

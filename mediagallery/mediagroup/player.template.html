@@ -1,0 +1,9 @@
+
+	<div style="background-color: lightblue;">
+		<button ng-click="previous(pos)" ng-disabled=" pos <= 0" >{{'label.previous' | translate}}</button>
+		<button ng-click="next(pos)" ng-disabled="pos>=(medias.length-1)" >{{'label.next' | translate}}</button>
+		<photo ng-if="medias[pos].type='PHOTO'" photo="medias[pos]"></photo>      	
+		<video ng-if="medias[pos].type='VIDEO'" video="medias[pos]"></video>      	
+		<audio ng-if="medias[pos].type='AUDIO'" audio="medias[pos]"></audio>      	
+	</div>
+

@@ -1,0 +1,115 @@
+{
+	"ref" : "",
+	"titles_json":{"FR":"","EN":"Mission"},
+	"media_json":{"MED":{"PATH":""},"LOW":{"PATH":""},"HIGH":{"PATH":""}},
+	"description_json":{"FR":"","EN":"The European Commission's audiovisual services supply audiovisual news coverage to media professionals around the world and a unique media archive of important developments in EU history. We offer video, photo and sound coverage of European news. We also provide assistance for journalists wishing to cover EU subjects. Get the sights and sounds of Europe directly onto your screen via the Internet and via Europe by Satellite. All our materials are available in professional standards. European audiovisual material since the 1940s is also available. Our news service is unbiased and reliable and tailored to meet the needs of broadcasters, news agencies, print media, and anyone interested in spreading information on the activities carried out by the European Commission and other EU institutions. We are committed to expanding and adapting our products and services in order to offer you information you can trust because of its depth and its breadth, its speed and its accuracy."},
+	"chapters_json": [
+					{
+						"titles_json":{"FR":"","EN":""},
+						"media": [
+									{ 
+									"ref":"M-000000",
+									"titles_json":{"FR":"Vidéo","EN":"Video"},
+									"description_json":{"FR":"","EN":""},
+									"media_json":{"MED":{"PATH":""},"LOW":{"PATH":""},"HIGH":{"PATH":""}},
+									"type":"MEDIAGROUP",
+									"chapters_json": [
+													{
+													"titles_json":{"EN":"We cover Europe's news","FR":""},
+													"description_json":{"EN":"We ensure that all major events in the building of Europe and statements by major European personalities are recorded as they take place as well as all significant events happening in the EU institutions.Our recordings are made immediately available to media professionals worldwide.","FR":""},
+													"media_json":{"MED":{"PATH":""},"LOW":{"PATH":""},"HIGH":{"PATH":""}},
+													"media": []
+													},
+													{
+													"titles_json":{"EN":"The living memory of Europe","FR":""},
+													"description_json":{"EN":"We offer you access to the most extensive library of audiovisual documents in existence on EU history. View footage from the first steps of the Common Market to the era of peace, security, prosperity and solidarity of today's European Union. Our archive is part of Europe's living memory and available to all.","FR":""},
+													"media_json":{"MED":{"PATH":""},"LOW":{"PATH":""},"HIGH":{"PATH":""}},
+													"media": []
+													}
+													]
+									},
+									{ 
+									"ref":"M-000001",
+									"titles_json":{"FR":"","EN":"Photo"},
+									"description_json":{"FR":"","EN":""},
+									"media_json":{"MED":{"PATH":""},"LOW":{"PATH":""},"HIGH":{"PATH":""}},
+									"type":"MEDIAGROUP",
+									"chapters_json": [
+													{
+													"titles_json":{"EN":"Picturing Europe","FR":""},
+													"description_json":{"EN":"We deliver extensive photo coverage of all main EU-related news in both black & white and colour. Archive photos covering the main events of the European Community in the last sixty years are also available.","FR":""},
+													"media_json":{"MED":{"PATH":""},"LOW":{"PATH":""},"HIGH":{"PATH":""}},
+													"media": []
+													}
+													]
+									},
+									{ 
+									"ref":"M-000002",
+									"titles_json":{"FR":"","EN":"Audio"},
+									"description_json":{"FR":"","EN":""},
+									"media_json":{"MED":{"PATH":""},"LOW":{"PATH":""},"HIGH":{"PATH":""}},
+									"type":"MEDIAGROUP",
+									"chapters_json": [
+													{
+													"titles_json":{"EN":"The voices of Europe","FR":""},
+													"description_json":{"EN":"We provide daily news coverage in broadcast quality audio. Hear key speeches and declarations by leading players in the building of Europe in their original language. Our library's sound archive footage covers principal developments in Europe since World War II.","FR":""},
+													"media_json":{"MED":{"PATH":""},"LOW":{"PATH":""},"HIGH":{"PATH":""}},
+													"media": []
+													}
+													]
+									},
+									{ 
+									"ref":"M-000003",
+									"titles_json":{"FR":"","EN":"Distribution"},
+									"description_json":{"FR":"","EN":""},
+									"media_json":{"MED":{"PATH":""},"LOW":{"PATH":""},"HIGH":{"PATH":""}},
+									"type":"MEDIAGROUP",
+									"chapters_json": [
+													{
+													"titles_json":{"EN":"Sights and sounds on air","FR":""},
+													"description_json":{"EN":"The European Union's TV information service Europe by Satellite (EbS) provides EU-related pictures and sound for media professionals and institutions. EbS is directly available to local, regional, national and international organisations in the Union, the Mediterranean area, and Central and Eastern Europe. EbS transmits a free to air signal via satellite and is also available via the internet. ","FR":""},
+													"media_json":{"MED":{"PATH":""},"LOW":{"PATH":""},"HIGH":{"PATH":""}},
+													"media": []
+													},
+													{
+													"titles_json":{"EN":"Live coverage, news summaries and stockshots","FR":""},
+													"description_json":{"EN":"EbS offers live coverage of the main EU events and live daily news broadcasts. In addition, EbS offers thematic footage illustrating the daily news and video news releases related to the integration process in Europe. These services are available in natural sound and in up to 24 languages.","FR":""},
+													"media_json":{"MED":{"PATH":""},"LOW":{"PATH":""},"HIGH":{"PATH":""}},
+													"media": []
+													},
+													{
+													"titles_json":{"EN":"Online broadcasts","FR":""},
+													"description_json":{"EN":"All EbS products are accessible to any connected media or individual anywhere in the world through the internet portal of the Audiovisual Services. Consult EbS' continually updated transmission schedule on this site, as well as shotlists detailing the content of pictures and links to complementary information sources and photos. Pictures and sound may be downloaded in broadcast quality formats: MPEG4 for video, MP3 for sound and JPEG for photos. This news material is published during or soon after the events, remains available for at least one month and is easy to download, process and file.","FR":""},
+													"media_json":{"MED":{"PATH":""},"LOW":{"PATH":""},"HIGH":{"PATH":""}},
+													"media": []
+													}
+													]
+									},
+									{ 
+									"ref":"M-000004",
+									"titles_json":{"FR":"","EN":"Copyright"},
+									"description_json":{"FR":"","EN":"Audiovisual services' news material is offered free of charge for EU-related information and education purposes. Further details on our conditions of use are available in our copyright section."},
+									"media_json":{"MED":{"PATH":""},"LOW":{"PATH":""},"HIGH":{"PATH":""}},
+									"type":"MEDIAGROUP",
+									"chapters_json": []
+									},
+									{ 
+									"ref":"M-000005",
+									"titles_json":{"FR":"","EN":"AV Services"},
+									"description_json":{"FR":"","EN":""},
+									"media_json":{"MED":{"PATH":""},"LOW":{"PATH":""},"HIGH":{"PATH":""}},
+									"type":"MEDIAGROUP",
+									"chapters_json": [
+													{
+													"titles_json":{"EN":"Picturing Europe","FR":""},
+													"description_json":{"EN":"","FR":""},
+													"media_json":{"MED":{"PATH":""},"LOW":{"PATH":""},"HIGH":{"PATH":""}},
+													"media": []
+													}
+													]
+									}
+							]
+					}
+				]
+			}
+									

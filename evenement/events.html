@@ -1,0 +1,26 @@
+<h1>{{'photo.planned_photo_coverage'|translate}}</h1>
+
+<div class="container">
+	<div class="row">
+		<div class="col-lg-2">
+			<div class="row" >
+        <ul class="ecl-list--unstyled">
+      <li class="ecl-list-item ecl-list-item--date" ng-repeat="event in upcomingevents">
+        <a  class="ecl-link ecl-list-item__link">
+          <div class="ecl-u-sr-only">{{'photo.planned_photo_coverage' | translate}}</div>
+          <div class="ecl-list-item__primary">
+          	<badge-date datereportage="event.startdate" ng-if="events.status != 583"></badge-date>
+          	<badge-date-canceled datereportage="event.startdate" ng-if="events.status == 583"></badge-date-canceled>
+          </div>
+          <div class="ecl-list-item__body">
+            
+            <h3 class="ecl-list-item__title ecl-heading ecl-heading--h3">{{event.title}}</h3>
+            <span ng-show="event.startdate != event.closedate">{{event.startdate+'T000000Z'|date:'dd/MM/yyyy'}} -> {{event.closedate+'T000000Z'|date:'dd/MM/yyyy'}}</span>
+          </div>
+        </a>
+      </li>
+    </ul>
+			</div>
+		</div>
+	</div>
+</div>

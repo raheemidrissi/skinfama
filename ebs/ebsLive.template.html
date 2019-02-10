@@ -1,0 +1,37 @@
+            <h3 style="color:#09F; font-size:20px; font-weight:bold;">
+                {{'EbS'|translate}}<span ng-hide="channel==1">+</span> Live
+            </h3>
+
+				<avportal-video video="video"
+								cloud="isCloud" 
+    							channel="channel" 
+    							autostart="autostart" 
+    							language="lang" 
+    							sublanguage="sublg" 
+    							starttime="tin" 
+    							endtime="tout"
+    							show-switch-live="true"></avportal-video>
+            
+            <div ng-if="liveDesc.onAir.prog.titles">
+		                <h5 class="ecl-u-mv-xxs">
+		                	<span class="ecl-u-mr-none ecl-tag__item ecl-u-bg-secondary avs-bg-error ecl-u-color-white" href="#">{{'ebs.on_air'|translate}}</span>
+		                </h5>
+		                <p class="ecl-paragraph--xs ecl-u-mv-none">
+		                    <strong>{{liveDesc.onAir.seq.hour}}</strong> 
+		                    - <span ng-bind-html="liveDesc.onAir.prog.titles"></span> <span ng-bind-html="liveDesc.onAir.seq.title | translateDB"></span>
+		                </p>
+            </div>
+            <div>
+ 		                <h5 class="ecl-u-mv-xxs">
+		                	{{'ebs.next_on_ebs'|translate}}
+		                </h5>
+		                <p ng-if="liveDesc.nextOn.seq.thumbmini">
+		                	<img ng-src="{{liveDesc.nextOn.seq.thumbmini}}" width="150" height="100">
+		                </p>
+		                <p class="ecl-paragraph--xs ecl-u-mv-none">
+		        
+		                    <strong>{{liveDesc.nextOn.seq.hour || liveDesc.nextOn.prog.hour}}</strong> 
+		                    - <span ng-bind-html="liveDesc.nextOn.prog.titles"></span> <span ng-bind-html="liveDesc.nextOn.seq.title | translateDB"></span>
+		                </p>
+            </div>
+            

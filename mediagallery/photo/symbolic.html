@@ -1,0 +1,38 @@
+<div class="ecl-container ecl-u-mt-m avs-content-wrapper">    
+	<div class="ecl-row">
+		<aside class="ecl-col-lg-3" role="complementary">
+			<div class="ecl-u-d-flex ecl-u-d-lg-none ecl-u-justify-content-between ecl-u-align-items-baseline">
+				<h2 class="ecl-heading ecl-heading--h2">{{'search.search_results'|translate}} ({{nbCount}})</h2>
+				<button class="ecl-button ecl-button--primary ecl-u-d-lg-none ecl-expandable__button" aria-controls="form-filter" aria-expanded="true" type="button">{{'search.refine_search' | translate}}</button>
+			</div>
+			<form class="ecl-form ecl-u-d-lg-block" aria-hidden="false" method="get" id="form-filter">
+				<fieldset class="ecl-fieldset">
+					<legend class="ecl-form-legend ecl-form-legend--level-1">{{'search.search_options' |translate}}</legend>
+		                <div class="ecl-form-group">
+		                    <label class="ecl-form-label" for="search-option-file-format">{{'label.thematic'|translate}}</label>
+		                    <select class="ecl-select" id="search-option-file-format" name="file-format" ng-model="search.thematic">
+		                        <option ng-repeat="cat in thematics  | filter:{shortcut:''}| orderBy:traduc" value="{{cat.doc_ref}}" >{{cat.title | translateDB}}</option>
+		                    </select>
+		                </div>
+		            </fieldset>
+		        </form>
+		    </aside>
+
+			<section class="ecl-col-lg-9">
+		        <div class="ecl-container avs-list-results-thumbnails">
+		            <div class="ecl-row">
+		                <div class="ecl-col-lg">
+							<h2 class="ecl-heading ecl-heading--h2 ecl-u-d-none ecl-u-d-lg-block">{{'photo.creative_photos'|translate}} ({{results.numFound}})</h2>
+
+		                    <nav class="ecl-navigation-list-wrapper avs-before-search-results ecl-u-mt-xs">
+		                        <h2 class="ecl-u-sr-only">Small Navigation Menu</h2>
+		                    </nav>
+		                </div>
+		            </div>
+		            <div class="ecl-row" style="margin-top: 20px;">
+		                <vignette-detail  class="ecl-col-lg-4" media="media" type="'MEDIAGROUP'" ng-repeat="media in results.mediagroups"></vignette-detail>
+		            </div>
+		        </div>
+		    </section>
+		</div>             
+    </div>

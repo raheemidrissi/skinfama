@@ -1,0 +1,5 @@
+<div id="mygallery" >
+    <a ui-sref="language.{{(mediatype||reportage.type) | galleryTo}}({'ref':reportage.ref,'mgid':mgid})" ng-repeat="reportage in items" ng-launch-masonry>
+        <img alt="{{reportage.summary | translateDB | fmLimitTo:60:'...'}}" ng-src="{{reportage.thumb}}"/>
+    </a>
+</div>

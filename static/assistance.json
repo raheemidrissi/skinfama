@@ -1,0 +1,114 @@
+{
+	"ref" : "",
+	"titles_json":{"FR":"","EN":""},
+	"media_json":{"MED":{"PATH":""},"LOW":{"PATH":""},"HIGH":{"PATH":""}},
+	"description_json":{"FR":"","EN":""},
+	"chapters_json": [
+					{
+						"titles_json":{"FR":"","EN":""},
+						"media": [
+									{ 
+									"ref":"M-000000",
+									"titles_json":{"FR":"","EN":"Assistance on the spot"},
+									"description_json":{"FR":"","EN":"The audiovisual services of the European Commission situated in Brussels' Berlaymont building offer assistance and technical facilities to TV and radio journalists:<br /><br /><ul><li>two TV studios and one radio studio</li><li>editing facilities</li><li>video crews and filming facilities</li><li>access to archive footage</li><li>streaming facilities to social media platforms</li></ul><br/><strong>SEE THE VIRTUAL VISIT OF THE STUDIOS</strong>"},
+									"media_json":{"MED":{"PATH":""},"LOW":{"PATH":""},"HIGH":{"PATH":""}},
+									"type":"MEDIAGROUP",
+									"chapters_json": []
+									},
+									{ 
+									"ref":"M-000001",
+									"titles_json":{"FR":"","EN":"Conditions of use"},
+									"description_json":{"FR":"","EN":"The above-mentioned services are provided free of charge to radio and TV stations, AV journalists, subject to certain priorities and conditions of use"},
+									"media_json":{"MED":{"PATH":""},"LOW":{"PATH":""},"HIGH":{"PATH":""}},
+									"type":"MEDIAGROUP",
+									"chapters_json": [
+													{
+													"titles_json":{"EN":"Management of priorities","FR":""},
+													"description_json":{"EN":"Requests for technical assistance will be met on a \"first come, first served\" basis giving absolute priority to items involving a Commission representative (the President, Commissioners, spokespersons, senior staff members of the Commission who can speak on the record) and meeting all or some of the following criteria: <br/><ul><li>coverage of Community current affairs</li><li>productions covering priority themes on the Commission's work programme</li><li>radio and TV stations from an EU country or an EU candidate country</li></ul>The use of crews and editing facilities is restricted to a maximum of 2.5 hours (including filming, editing and transmission) for each user. For recurrent use (weekly/monthly), please contact the audiovisual planning team to discuss the project.","FR":""},
+													"media_json":{"MED":{"PATH":""},"LOW":{"PATH":""},"HIGH":{"PATH":""}},
+													"media": []
+													},
+													{
+													"titles_json":{"EN":"Reservation of studios","FR":""},
+													"description_json":{"EN":"Contact the audiovisual planning team for reservations and information on the availability of our resources on the preferred date and time: planning-audiovisual@ec.europa.eu / Tel: +32 2 295 21 23 ","FR":""},
+													"media_json":{"MED":{"PATH":""},"LOW":{"PATH":""},"HIGH":{"PATH":""}},
+													"media": []
+													},
+													{
+													"titles_json":{"EN":"Details required when making a reservation","FR":""},
+													"description_json":{"EN":"<ul><li>name and contact details of the station and the person in charge</li><li>subject of the programme and a brief description</li><li>date, hour and duration of the booking</li><li>type of production: recording, live broadcast, duplex studio</li><li>number of participants in the studio</li><li>post-production (editing), if required</li><li>FTP transfer, if required</li></ul>","FR":""},
+													"media_json":{"MED":{"PATH":""},"LOW":{"PATH":""},"HIGH":{"PATH":""}},
+													"media": []
+													},
+													{
+													"titles_json":{"EN":"Additional information","FR":""},
+													"description_json":{"EN":"When transmission services are required, the audiovisual unit can offer a number of connectivity means via its contractors and partners. In such cases, the bookings should be made and paid for by the requesting user to the respective contractor/partner. Further details can be obtained from the audiovisual planning office. <br /><br />The Commission's participation is limited to that of technical assistance. The Commission is not responsible for the content (editorial line, information, opinions expressed, etc.) of the programmes produced.","FR":""},
+													"media_json":{"MED":{"PATH":""},"LOW":{"PATH":""},"HIGH":{"PATH":""}},
+													"media": []
+													}
+													]
+									},
+									{ 
+									"ref":"M-000002",
+									"titles_json":{"FR":"","EN":"Technical Facilities"},
+									"description_json":{"FR":"","EN":""},
+									"media_json":{"MED":{"PATH":""},"LOW":{"PATH":""},"HIGH":{"PATH":""}},
+									"type":"MEDIAGROUP",
+									"chapters_json": [
+													{
+													"titles_json":{"EN":"ENG team","FR":""},
+													"description_json":{"EN":"Cameraman and sound engineer<br />Possibility for live streaming","FR":""},
+													"media_json":{"MED":{"PATH":""},"LOW":{"PATH":""},"HIGH":{"PATH":""}},
+													"media": []
+													},
+													{
+													"titles_json":{"EN":"TV Studio 1","FR":""},
+													"description_json":{"EN":"<ul><li>n187 m² area</li><li>5.5 m high cyclorama</li><li>2 interpreters' cabins</li><li>stage with a table for up to 6 participants</li><li>25 seat tribune for audience participation</li><li>up to 6 HD studio cameras</li><li>teleprompter</li><li>complete lighting grid</li></ul>","FR":""},
+													"media_json":{"MED":{"PATH":""},"LOW":{"PATH":""},"HIGH":{"PATH":""}},
+													"media": []
+													},
+													{
+													"titles_json":{"EN":"TV Studio 2","FR":""},
+													"description_json":{"EN":"<ul><li>n70 m² area</li><li>5.5 m high cyclorama</li><li>4 interpreters' cabins</li><li>up to 3 HD studio cameras</li><li>teleprompter</li><li>complete lighting grid</li></ul>","FR":""},
+													"media_json":{"MED":{"PATH":""},"LOW":{"PATH":""},"HIGH":{"PATH":""}},
+													"media": []
+													},
+													{
+													"titles_json":{"EN":"Visual radio studio","FR":""},
+													"description_json":{"EN":"<ul><li>ncapacity: 6 people</li><li>3 HD cameras</li><li>ISDN and IP connectivity</li><li>non-linear editing and mixing</li></ul>","FR":""},
+													"media_json":{"MED":{"PATH":""},"LOW":{"PATH":""},"HIGH":{"PATH":""}},
+													"media": []
+													},
+													{
+													"titles_json":{"EN":"Video editing","FR":""},
+													"description_json":{"EN":"<ul><li>nnon-linear editing system EDIUS (Grass Valley)</li><li>DVCPRO HD video format</li><li>voice-over recording</li></ul>","FR":""},
+													"media_json":{"MED":{"PATH":""},"LOW":{"PATH":""},"HIGH":{"PATH":""}},
+													"media": []
+													},
+													{
+													"titles_json":{"EN":"Copies and distribution of media items and archive footage","FR":""},
+													"description_json":{"EN":"most current productions are available for download as media items from the AV portal archive footage items can be acquired through the Front Desk service (comm-frontdesk@ec.europa.eu / Tel:+32 2 296 41 05) media files can be obtained through FTP or on a data storage device - USB flash drive or HDD/SSD (provided by the user)","FR":""},
+													"media_json":{"MED":{"PATH":""},"LOW":{"PATH":""},"HIGH":{"PATH":""}},
+													"media": []
+													},
+													{
+													"titles_json":{"EN":"Green room and make-up area available close to the studios","FR":""},
+													"description_json":{"EN":"","FR":""},
+													"media_json":{"MED":{"PATH":""},"LOW":{"PATH":""},"HIGH":{"PATH":""}},
+													"media": []
+													}
+													]
+									},
+									{ 
+									"ref":"M-000003",
+									"titles_json":{"FR":"","EN":"Contact"},
+									"description_json":{"FR":"","EN":"Audiovisual Planning office<br />Berlaymont -1/ME23<br />Tel: +32 2 295 21 23<br />email: planning-audiovisual@ec.europa.eu"},
+									"media_json":{"MED":{"PATH":""},"LOW":{"PATH":""},"HIGH":{"PATH":""}},
+									"type":"MEDIAGROUP",
+									"chapters_json": []
+									}
+							]
+					}
+				]
+			}
+									

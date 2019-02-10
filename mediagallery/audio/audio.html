@@ -1,0 +1,50 @@
+<div id="title">
+
+</div>
+<div class="container">
+    <h1>{{mediatype}} ({{length}})</h1>
+    <hr>
+    <div class="row">
+    	<div class="col-xs-2">
+        Filter
+        </div>
+        <div class="col-xs-8">
+        	<div ng-repeat="vid in audio">
+
+				<a href="#/{{lang}}/audio/{{vid.ref}}/"><img ng-src="{{vid.video[0].IMAGE}}" alt="{{vid.title}}" /></a>
+	      		<h3>{{vid.title|translateDB}}</h3>
+	      		<h4>{{vid.summary|translateDB}}</h4>
+	      		<span>{{vid.ref}}</span><br>
+	      		<span>{{vid.duration | fmDuration}}</span><br>
+	      		<span>{{vid.date}}</span><br>
+	      		<span>{{vid.genre}}</span><br>
+	      		<span>{{vid.copyright|translateDB}}</span><br>
+	      		<span>{{vid.cooperator}}</span><br>
+	      		<span ng-repeat="thes in vid.thesaurus"><a ng-href="{{thes.id}}">{{thes.name|translateDB}}</a> </span><br>
+	      		<span ng-repeat="videoversion in vid.video"><a ng-href="#/{{lang}}/video/{{vid.ref}}/{{videoversion.LGSHORT}}/">{{videoversion.LGFULL}}</a> </span>
+	      		<br>
+
+	      		<div class="dropdown">
+				  <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+				    DOWNLOAD VIDEO HD
+				    <span class="caret"></span>
+				  </button>
+				  <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
+				    <li ng-repeat="videofiles in vid.video"><a ng-href="{{videofiles.HDMP4}}">{{videofiles.LGFULL}}</a></li>
+				  </ul>
+				</div> 
+
+	      		<div class="dropdown">
+				  <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+				    DOWNLOAD AUDIO
+				    <span class="caret"></span>
+				  </button>
+				  <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
+				    <li ng-repeat="videoaudio in vid.video"><a ng-href="{{videoaudio.MP3}}">{{videoaudio.LGFULL}}</a></li>
+				  </ul>
+				</div>
+            </div>
+        </div>
+    </div>
+
+</div>

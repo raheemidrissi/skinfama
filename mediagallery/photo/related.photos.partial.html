@@ -1,0 +1,18 @@
+<article>
+    <div ng-show="photosRelated.length > 0">
+	    <div class="ecl-row">
+	        <div class="ecl-col-lg-12">
+	            <h2>{{'photo.related_photos' | translate}} ({{photosRelated.length}})</h2>
+	        </div>
+	    </div>
+	    <liste-vignette medias="photosRelated" />
+	
+	    <div class="ecl-row" ng-if="photosRelated.length>3">
+	        <div class="ecl-col-lg-12">
+	            <strong>
+	                <a class="ecl-u-mt-s ecl-u-f-r ecl-link avs-file ecl-button--caret-right ecl-u-text-uppercase ecl-link--standalone" ui-sref="language.event({'ref': video.project.id || reportage.project.id || photo.project.id})">{{ 'photo.more_photos' | translate}}</a>
+	            </strong>
+	        </div>
+	    </div>
+    </div>
+</article>

@@ -1,0 +1,58 @@
+<div class="ecl-container ecl-u-mt-m avs-content-wrapper" ng-if="errMsg">
+	<h2>{{errMsg}}</h2>
+</div>
+<div class="ecl-container ecl-u-mt-m avs-content-wrapper">
+	
+    <h1>{{mediagroup.title|translateDB}}</h1>
+    <h3 ng-bind-html="mediagroup.description | translateDB"></h3>
+
+    <div class="ecl-row">
+        <div class="ecl-col-lg-8">
+
+            <div id="galleria">
+                <a href="{{photos.thumb}}"  ng-repeat="photos in reportage">
+                    <img 
+                        ng-src="{{photos.thumb}}"
+                        data-big="{{photos.image[0].path}}"
+                        data-title=""
+                        data-description="">
+                </a>
+            </div>
+
+            <div>
+                <share-network></share-network>
+            </div>
+            <div class="ecl-file__caption ecl-u-pv-xxs">
+                <p class="ecl-u-mv-none ecl-paragraph ecl-paragraph--m ng-binding">{{photo.summary|translateDB}}</p>
+            </div>
+
+            <!-- // DOWNLOAD BUTTONS -->
+    		<download-photo photos="photo"></download-photo>
+            
+        </div>
+
+    <aside class="ecl-col-lg-4" role="complementary">
+        <div class="avs-media-details  avs-bg-grey-10 ecl-u-pv-xxxs ecl-u-ph-xs">
+            <div class="main-details">
+				<p class="ecl-paragraph ecl-paragraph--m" ng-if="photo.genre"><strong>{{'label.type_of_transmissions'|translate}} :</strong> {{photo.genre}}</p>
+				<p class="ecl-paragraph ecl-paragraph--m"><span class="fas fa-user"></span> <strong>{{'label.reference_number'|translate}}:</strong> {{photo.ref}} </p>
+			 	<p class="ecl-paragraph ecl-paragraph--m"><span class="fas fa-calendar"></span> <strong>{{'label.event_date'|translate}}:</strong> {{photo.date}} </p>
+				<p class="ecl-paragraph ecl-paragraph--m" ng-if="photo.institution.length"><span class="fas fa-university"></span> <strong>{{'label.institution'|translate}}:</strong> <span ng-repeat="inst in photo.institution">{{inst.titles | translateDB}}<span ng-if="! $last"> , </span></span> </p>
+				<p class="ecl-paragraph ecl-paragraph--m" ng-if="photo.location.length"><span class="fas fa-map-marker-alt"></span> <strong>{{'label.location'|translate}}:</strong> <span ng-repeat="loc in photo.location">{{loc.value | translateDB}}<span ng-if="! $last"> , </span></span> </p>
+				<p class="ecl-paragraph ecl-paragraph--m" ng-if="photo.thesaurus.length"><span class="fas fa-tag"></span> <strong>{{'label.tag'|translate}}:</strong> <span ng-repeat="thes in photo.thesaurus"><a class="ecl-link" ui-sref="language.search({thesaurus:thes.id})">{{thes.value | translateDB}}</a><span ng-if="! $last"> , </span></span> </p>
+				<p class="ecl-paragraph ecl-paragraph--m" ng-if="photo.personalities.length"><span class="fas fa-user"></span> <strong> {{'label.person'|translate}}:</strong> <span ng-repeat="pers in photo.personalities"><a class="ecl-link" ui-sref="language.search({personalities:pers.id})">{{pers | fmPersonnality}}</a><span ng-if="! $last"> , </span></span> </p>
+				<p class="ecl-paragraph ecl-paragraph--m"><span class="fas fa-eye"></span> <strong>{{'label.views'|translate}} :</strong> {{photo.views}}</p>
+            </div>
+            <hr>
+            <div class="secondary-details">
+				<p class="ecl-paragraph ecl-paragraph--m" ng-repeat="(key,value) in photo.photographer">
+					<strong>{{key }}:</strong>
+					<span ng-repeat="val in value"><br/>&nbsp;&nbsp;&nbsp;{{val}}<span ng-if="! $last"> , </span></span>
+				</p>
+				<p class="ecl-paragraph ecl-paragraph--m"><strong>{{'label.copyright'|translate}}:</strong> {{photo.copyright | fmCopyright}} </p>
+            </div>
+        </div>
+    </aside>
+</div>
+
+ 

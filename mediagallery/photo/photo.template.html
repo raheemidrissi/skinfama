@@ -1,0 +1,25 @@
+		<h3>{{photoObj.title|translateDB}}</h3>
+		<hr>
+		<p>{{photoObj.legend|translateDB}}</p>
+      	<img ng-src="{{photoObj.thumb}}"/>
+      	<p>{{photoObj.summary|translateDB}}</p>
+      	<hr>
+      	{{'label.event_date'|translate}} : {{photoObj.date}} | {{'label.reference_number'|translate}} : {{photoObj.ref}} | {{'location'|translate}} : <span>{{photoObj.location[0].value|translateDB}}</span><br>
+      	{{'tags'|translate}} : <span ng-repeat="thes in photoObj.thesaurus">{{thes.value|translateDB}} <span ng-show="! $last"> | </span></span>
+      	<hr>
+      	<div>
+      		{{photoObj.copyright | fmCopyright}} <span ng-show="photoObj.photographer && photoObj.photographer.AGENCY[0]">/ {{'label.agence'|translate}} : {{photoObj.photographer.AGENCY[0]}} </span><span ng-show="photoObj.photographer && photoObj.photographer.PHOTOGRAPHER[0]">/ {{'label.photographer'|translate}} : {{photoObj.photographer.PHOTOGRAPHER[0]}}</span>
+      	</div>
+      	<div ng-show="photoObj.personnalities.length">
+      		{{'label.person'|translate}}: 
+      		<span ng-repeat="person in photoObj.personnalities | orderBy:'preferedterm'">
+      			<a ui-sref="language.search({term:'persothes='+person.id})">{{person | fmPersonnality}}</a><span ng-show="! $last"> | </span>
+      		</span>
+      	</div>
+      	
+      	<!-- download -->
+      	<div class="row" ng-if="photoObj.image.length">
+      		<div class="col-xs-3" ng-repeat="download in photoObj.image">
+      			<a ng-href='{{download.path}}'>{{'label.download'|translate}} {{download.type.toUpperCase()}} ({{download.width}}x{{download.height}})</a>
+      		</div>
+      	</div>

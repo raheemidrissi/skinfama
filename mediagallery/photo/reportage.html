@@ -1,0 +1,45 @@
+	<h1>{{reportages[0].title | translateDB}}</h1>
+	<h3 ng-bind-html="reportages[0].legend | translateDB"></h3>
+	<gallery-open-carousel items="reportages" mediatype="'PHOTO'" />
+	<!--  RELATED -->
+	<div autoscroll="true">
+		<article>
+		    <div ng-show="reportages[0].videosRelated.length > 0">
+			    <div class="ecl-row">
+			        <div class="ecl-col-lg-12">
+			            <h2>{{'video.related_videos' | translate}} ({{reportages[0].videosRelated.length}})</h2>
+			        </div>
+			    </div>
+			
+			    <liste-vignette medias="reportages[0].videosRelated" />
+			
+			    <div class="ecl-row" ng-show="reportages[0].videosRelated.length>3">
+			        <div class="ecl-col-lg-12">
+			            <strong>
+			                <a class="ecl-u-mt-s ecl-u-f-r ecl-link avs-file ecl-button--caret-right ecl-u-text-uppercase ecl-link--standalone" ui-sref="language.event({'ref': reportages[0].project.id || reportages[0].project.id})">{{ 'video.more_videos' | translate}}</a>
+			            </strong>
+			        </div>
+			    </div>
+		    </div>
+		</article>
+	</div>
+	<div autoscroll="true">
+		<article>
+		    <div ng-show="reportages[0].photosRelated.length > 0">
+			    <div class="ecl-row">
+			        <div class="ecl-col-lg-12">
+			            <h2>{{'photo.related_photos' | translate}} ({{reportages[0].photosRelated.length}})</h2>
+			        </div>
+			    </div>
+			    <liste-vignette medias="reportages[0].photosRelated" />
+			
+			    <div class="ecl-row" ng-if="reportages[0].photosRelated.length>3">
+			        <div class="ecl-col-lg-12">
+			            <strong>
+			                <a class="ecl-u-mt-s ecl-u-f-r ecl-link avs-file ecl-button--caret-right ecl-u-text-uppercase ecl-link--standalone" ui-sref="language.event({'ref': reportages[0].project.id || reportage.project.id || reportages[0].project.id})">{{ 'photo.more_photos' | translate}}</a>
+			            </strong>
+			        </div>
+			    </div>
+		    </div>
+		</article>
+	</div>

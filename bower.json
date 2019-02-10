@@ -1,0 +1,39 @@
+{
+  "name": "avservices",
+  "authors": [
+    "Régis Vendewinkèle"
+  ],
+  "description": "",
+  "main": "",
+  "license": "MIT",
+  "homepage": "index.html",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular-aria": "^1.6.9",
+    "angular-auto-complete": "^1.4.3",
+    "angular-jwt": "^0.1.9",
+    "angular-cookies": "^1.5.9",
+    "angular-messages": "^1.6.7",
+    "angular-translate-loader-static-files": "^2.17.0",
+    "angular-sanitize": "^1.6.1",
+    "angular-translate-storage-cookie": "^2.17.0",
+    "angular-translate-storage-local": "^2.17.0",
+    "angular-translate": "^2.17.0",
+    "angular-ui-router": "^1.0.18",
+    "angular-utils-ui-breadcrumbs": "^0.2.2",
+    "angularUtils-pagination": "angular-utils-pagination#^0.11.1",
+    "bootstrap": "^3.3.7",
+    "moment": "^2.20.1",
+    "font-awesome": "^4.7.0",
+    "respond": "^1.4.2",
+    "html5shiv": "^3.7.3",
+    "owlcarousel": "^2.3.4",
+    "angular-moment": "^1.2.0"
+  }
+}

@@ -1,0 +1,471 @@
+{
+
+    "label": {
+
+        "european_commission": "Commission européenne",
+        "commission_and_its_priorities": "La Commission et ses prioprités",
+        "policies_information_and_services": "Politiques informations et services",
+        "welcome": "Bienvenue",
+        "login": "S'identifier",
+        "logout": "Déconnection",
+        "audiovisual_service": "Service audiovisuel",
+        "your_are_here": "You are here",
+        "reference_number": "ID",
+		"thematic":"Thématique",
+        "duration": "Durée",
+
+        "download": "Télécharger",
+
+        "available": "Available",
+
+        "tag": "Etiquette",
+
+        "caption": "Légende",
+
+        "thesaurus": "Thésaurus",
+        "videolang": "Langue de la vidéo",
+
+        "copyright": "Droits d'auteur",
+
+        "source": "Source",
+
+        "credit": "Crédit",
+
+        "topic": "Sujet",
+
+        "person": "Personnalités",
+
+        "location": "Lieu",
+
+        "institution": "Institution",
+
+        "language": "Langue",
+
+        "views": "Vues",
+
+        "type_of_transmissions": "Type",
+
+        "event_date": "Date de l'événement",
+
+        "looking_for_another_language": "Vous cherchez une autre langue qui n'est pas sur la liste?",
+
+        "find_out_why": "J'ai trouvé pourquoi",
+
+        "agence": "Agency",
+
+        "previous": "Précédent",
+
+        "next": "Suivant",
+
+        "page": "Page",
+        "EU": "Union Européenne",
+        "all": "Tous"
+
+    },
+
+    "menu": {
+
+        "home": "Accueil",
+        "Bonjour": "Bonjour",
+        "ogin": "Login",
+        "Logout": "Logout",
+
+        "headline_news": "Les moments forts",
+
+        "europe_by_satellite": "Europe by Satellite",
+
+        "all_schedules": "Toutes les grilles",
+
+        "ebs_schedule": "Grille EbS",
+
+        "ebs_plus_schedule": "Grille EbS+",
+
+        "ebs_latest": "L'actu récente d'EbS",
+
+        "technical_information": "Informations techniques",
+
+        "about_ebs": "A  propos d'EbS",
+
+        "video": "Vidéo",
+
+        "photo": "Photo",
+
+        "audio": "Audio",
+
+        "eu_history": "Histoire de l'UE",
+
+        "timeline": "Ligne du temps",
+
+        "milestones": "Pierres angulaires",
+
+        "calendar": "Calendrier",
+
+        "former_commissions": "Les Commissions précédentes",
+
+        "european_councils": "Conseils européens",
+
+        "upcoming_anniversaries": "Anniversaires à venir",
+
+        "diplomatic_relations": "Relations diplomatiques",
+
+        "about_us": "A propos de nous"
+    },
+
+    "home": {
+
+        "clips": "Clips",
+
+        "headline_news": "A la une de l’actualité de la Commission européenne",
+
+        "more_clips": "Plus de clips",
+
+        "news_photo": "Photos d'actualité",
+
+        "more_news_photo": "Plus de photos d'actualité",
+
+        "creative_photos": "Photos d'illustration",
+
+        "more_creative_photos": "Plus de photos d'illustration",
+
+        "whos_who": "Trombinoscope",
+
+        "more_portraits": "Plus de portraits",
+        "schedule_description": "EbS fournit des informations continuellement mises à jour et couvre une période de 3 semaines."
+
+    },
+    "highlights": {
+        "highlights": "Points forts",
+        "college": "College",
+        "10_priorities": "10 priorités",
+        "citizens_dialogues": "Les dialogues citoyens",
+        "state_of_the_union": "Etat de l'Union",
+        "press_briefings": "Points de presse",
+        "press_conferences": "Conférences de presse"
+    },
+
+    "shotlist": {
+
+        "duration_shot": "DUREE",
+
+        "hour": "HEURE",
+
+        "description": "DESCRIPTION"
+
+    },
+
+    "headlines": {
+
+        "previous": "Précédent",
+
+        "more_infos": "Plus",
+
+        "more": "Plus",
+
+        "press_release": "Communiqué de presse",
+
+        "fact_sheet": "Fiche descriptive",
+
+        "share_this_page": "Partager cette page",
+
+        "more_headline_news": "Plus d'actualité"
+
+    },
+
+    "ebs": {
+
+        "next_on_ebs": "A suivre sur EbS",
+
+        "next_on_ebs_plus": "A suivre sur EbS+",
+
+        "full_schedule_ebs": "Grille EbS complète",
+
+        "full_schedule_ebs_plus": "Grille EbS+ complète",
+
+        "watch_ebs_live": "EbS en direct",
+
+        "listen_to_ebs": "Ecouter EbS",
+
+        "watch_ebs_plus_live": "EbS+ en direct",
+
+        "listen_to_ebs_plus": "Ecouter EbS+",
+
+        "now": "A présent",
+
+        "morning": "Matin",
+
+        "afternoon": "Après-midi",
+
+        "evening": "Soirée",
+
+        "night": "Nuit",
+
+        "live": "EN DIRECT",
+
+        "on_air": "A L'ANTENNE",
+
+        "rec": "EN DIFFERE",
+
+        "edit": "MONTAGE",
+
+        "shotlist": "LISTE DE PLANS",
+
+        "cancelled": "STATUT: ANNULE",
+
+        "new": "STATUT: NOUVEAU",
+
+        "followed_by": "STATUT:SUIVI DE",
+
+        "channel": "Canal",
+
+        "type_of_content": "Type de contenu",
+
+        "all_time_in_cet": "Heures en HNEC",
+        "Switch_to": "Aller sur",
+        "EbS": "EbS",
+        "no_programm": "Il n'y a pas de programmes planifiés.",
+        "updated_at": "mis à jour à",
+        "earlier_in_the_day": "Tôt dans la journée"
+
+    },
+
+    "search": {
+        "allmedia": "Tous les médias",
+
+        "searchbutton": "Recherche",
+
+        "type_of_media": "Type de média",
+
+        "categories": "Catégories",
+
+        "showing_results": "Résultats de",
+
+        "search_options": "Option de recherche",
+
+        "date": "Date",
+
+        "relevance": "Pertinence",
+
+        "viewed": "Vues",
+
+        "refine_results": "Affiner la recherche",
+        "refine_search": "Refine results",
+
+        "from": "De",
+
+        "to": "à",
+
+        "search_results": "Résultats de recherche",
+
+        "clear_all": "Tout effacer",
+
+        "sort_by": "Trier par",
+
+        "keywords": "Mots clés",
+
+        "upcoming_headline_news": "L'actualité à venir",
+
+        "published_before": "Publié avant",
+
+        "published_after": "Publié après"
+
+    },
+
+    "photo": {
+
+
+        "planned_photo_coverage": "Planning de la couverture photo",
+
+        "photo_news": "Photos d'actualités",
+
+        "photo_news_description": "Les photos d’actualité couvrent l’actualité du Président et du Collège de la Commission européenne.",
+
+        "more_photo_news": "Plus de photos d'actualité",
+
+        "creative_photos": "Photos d'illustration",
+
+        "creative_photos_description": "Les photos d’illustration fournissent des images symboliques documentant des sujets liés aux politiques européennes.",
+
+        "more_creative_photos": "Plus de photos d'illustration",
+
+        "related_photos": "Photos associées",
+
+        "more_photos": "Plus de photos",
+
+        "view_all": "Voir tout",
+
+        "whos_who": "Trombinoscope",
+
+        "whos_who_description": "Le trombinoscope des personnalités des leaders européens.",
+
+        "more_whos_who": "Plus de portraits",
+
+        "more_portraits": "Plus de portraits",
+        "more_coverage": "Plus de couvertures photo programmées",
+
+        "photographer": "Photographer"
+
+    },
+
+    "video": {
+
+        "video_news": "Vidéos d'actualité",
+
+        "video_news_description": "Dernières vidéos d’actualité d’Europe by Satellite",
+
+        "more_video_news": "Plus d'actualités vidéo",
+
+        "more_coverage": "more coverage",
+
+        "video_stockshots": "Vidéos d'illustration",
+
+        "video_stockshots_description": "Les banques d’images d’illustration sont des montages d’images de tournage avec son original, sans commentaire, visant à illustrer les politiques et initiatives de la Commission européenne.Ces productions visent à illustrer des sujets d’actualité, des reportages ou clips vidéos réalisés par les journalistes et les médias utilisant nos services.",
+
+        "more_video_stockshots": "Plus de vidéos d'illustration",
+
+        "illustration_videos": "Vidéos d'illustration",
+
+        "related_illustration_videos": "Vidéos d'illustration associées",
+
+        "more_illustration_videos": "Plus de vidéos d'illustration",
+
+        "clips": "Clips",
+
+        "clips_description": "Les clips vidéo sont de courtes productions, avec voix off dans diverses langues de l’Union européenne,produites dans le cadre d’un ensemble de campagnes d'information axées sur un événement spécifique.",
+
+        "more_clips": "Plus de clips",
+
+        "related_videos": "Vidéos associées",
+
+
+        "more_videos": "Plus de vidéos",
+
+        "coverage": "Couverture video planifié",
+
+        "more_coverage": "Plus de couverture video planifié"
+
+    },
+
+    "history": {
+
+        "commission": "Commission",
+
+        "theme": "Théme",
+
+        "start_year": "Année de début",
+
+        "end_year": "Année de fin"
+
+    },
+
+    "contact": {
+
+        "contact_us": "Nous contacter"
+
+    },
+
+    "footer": {
+        "technical_assistance": "Mon Assistance Technique",
+
+        "help": "Aide",
+
+        "faq": "FAQ",
+
+        "cookies": "Cookies",
+
+        "privacy_policy": "Protection de la vie privée",
+
+        "contact": "Contact",
+
+        "legal_notice": "Avis juridique",
+
+        "formats_and_softwares": "Formats et logiciels",
+
+        "european_union": "Union européenne",
+
+        "resources_for_partners": "Resources for partners",
+
+        "about_the_commission": "A propos de la nouvelle présence de la Commission sur le web",
+
+        "commission_and_its_priorities": "La Commission et ses priorités",
+
+        "policies_information_and_services": "Policies information and services",
+
+        "follow_the_european_commission": "Suivre la Commission européenne",
+
+        "other_social_media": "Autres réseaux sociaux",
+
+        "useful_links": "Liens utiles",
+
+        "eu_institutions": "EU institutions"
+
+    },
+
+    "login": {
+
+        "login": "S'identifier",
+
+        "email_or_username_for_eu_officials": "Courriel ou nom d'utilisateur pour les fonctionnaires UE",
+
+        "password": "Password",
+
+        "remember_me": "Mot de passe",
+
+        "forgot_password": "Mot de passe oublié",
+
+        "cookies_disclamer": "Cookies: En m'enregistrant, j'accepte l'utilisation de cookies sur ce site. En savoir plus sur les cookies.",
+
+        "registration": "S'enregistrer",
+
+        "email": "Courriel",
+
+        "first_name": "Prénom",
+
+        "last_name": "Nom",
+
+        "address": "Adresse",
+
+        "city": "Ville",
+
+        "postcode": "Code postal",
+
+        "job_title": "Fonction",
+
+        "profession": "Profession",
+
+        "mobile": "No de portable",
+
+
+        "country": "Pays",
+
+        "are_you_interested": "Souhaitez-vous recevoir notre lettre d'information hebdomadaire ?",
+
+        "are_you_accredited": "Etes-vous accrédité auprès du service de presse de la Commission ?",
+
+        "see_subscription": "Voir la mention de respect de la privée",
+
+        "reset": "Annuler",
+
+        "create_account": "Créer mon compte",
+
+        "create_a_new_password": "Créer un nouveau mot de passe",
+
+        "new_password": "Nouveau mot de passe (15 signes max)",
+
+        "confirm_password": "CConfirmer le mot de passe"
+
+    },
+
+
+    "staticpage": {
+        "copyright": "<h3>Copyright</h3><p>The audiovisual material (still images, moving images and sound sequences)  made available on the website of the Audiovisual Service of the European  Commission is offered free of charge for EU-related information and education  purposes, unless otherwise stated hereafter or in the terms of use accompanying  each individual file. For any use not authorised by this copyright notice and  the terms of use accompanying each individual file, prior clearance must be  obtained from the <a href=\"mailto:mediatheque@ec.europa.eu\">Central Audiovisual Library</a> of the European  Commission.<br /><br /><strong>NB :</strong></p><ul type=\"disc\"><li>Moving images (videos) presented as \"Cartoon\", \"Clip\", \"College\", \"Documentary\", \"Generic\", \"Graphics\", \"Magazine\" or \"Music\" may not be edited and must be shown in their entirety, unless prior authorisation by the Central Audiovisual Library has been obtained.</li><li>All other kinds of moving images (videos) available on this website may be edited for EU information and education purposes.</li><li>The European Commission shall not object to the use of images of the Berlaymont, Charlemagne, Tour Madou and Breydel buildings of the European Commission for non-commercial EU-related information and education purposes on condition that proper credit is given to the architects:<br /><strong>Berlaymont</strong>: <br />Architects: Architects: Lucien De Vestel, Jean Gilson, A&J Polak; Renovation: Berlaymont 2000<br /><strong>Breydel</strong>: <br />Architects: André and Jean Polak, Marc Vanden Bossche and Johan Van Dessel<br /><strong>Charlemagne</strong>: <br />Architect: Jacques Cuisinier; Renovation: Murphy/Jahn and Arias Architectes et Ingénieurs associés<br /><strong>Tour Madou</strong>: <br />Architect: Robert Goffaux; Renovation: Architect Assar + Archi 2000. Lead Architect: Assar</li><li>Images showing buildings other than the aforementioned or showing artworks or identifiable persons that are not public figures may only be used to meet the needs of current news coverage. Any other use of these images is forbidden without prior permission of the right holder(s).</li><li>In no event shall the European Commission or its agents or officers be liable for any damages whatsoever (including, without limitation, damages for copyright infringement) arising out of the use of or inability to use the aforementioned images of buildings, artworks or identifiable persons, even if the European Commission has been advised of the possibility of such use. </li><li>The making available or communication to the public on any website, medium or physical storage format of audiovisual material containing music is subject to prior clearance of the music rights by the user with the author(s) and/or the national collecting society.</li></ul><h5>Credit:<br />Users are requested to refer to the credit which accompanies each individual  file. Where this is not found, please quote the following copyright:</h5><h2>© European Union, 2018</h2><p>Despite all our efforts, we have not yet succeeded in identifying the  authors and rights holders for some audiovisual material.<br />If you believe that you may be a rights holder, we invite you to contact the <a href=\"mailto:mediatheque@ec.europa.eu\">Central  Audiovisual Library</a> of the European Commission. </p>",
+        "mission": "<h1>Mission</h1><p class=\"ecl-u-f-none ecl-paragraph \">The European Commission's audiovisual service supplyup-to-the-minute audiovisual news coverage to media professionals around the world and a unique media archive of important developments in EU history. <br />We offer video, photo and sound coverage of European news. We also provide assistance for journalists wishing to cover EU subjects. Get the sights and sounds of Europe directly onto your screen via the Internet and via Europe by Satellite. All our materials are available in professional standards. European audiovisual material since the 1940s is also available.<br />Our news service is unbiased and reliable and tailored to meet the needs of broadcasters, news agencies, print media, and anyone interested in spreading information on the activities carried out by the European Commission and other EU institutions. <br />We are committed to expanding and adapting our products and services in order to offer you information you can trust because of its depth and its breadth, its speed and its accuracy.</p>",
+        "activities": "<h1>Activities</h1><div class= \"ecl-row ecl-u-z-navigation ecl-u-pt-xl \"><div class= \"ecl-col-md-3 ecl-u-z-navigation \"><nav class= \"ecl-navigation-inpage \" ><div class= \"ecl-navigation-inpage__title \">Page content</div><div class= \"ecl-navigation-inpage__body \"><div class= \"ecl-navigation-inpage__trigger \" aria-controls= \"ecl-navigation-inpage-list \" aria-expanded= \"false \" id= \"ecl-navigation-inpage-trigger \">&nbsp;</div><ul class= \"ecl-navigation-inpage__list \" aria-hidden= \"true \" aria-labelledby= \"ecl-navigation-inpage-trigger \" id= \"ecl-navigation-inpage-list \"><li class= \"ecl-navigation-inpage__item \"><a class= \"ecl-link ecl-link--standalone ecl-navigation-inpage__link \" href= \"#inline-nav-1 \">Video</a></li><li class= \"ecl-navigation-inpage__item \"><a class= \"ecl-link ecl-link--standalone ecl-navigation-inpage__link \" href= \"#inline-nav-2 \">Photo</a></li><li class= \"ecl-navigation-inpage__item \"><a class= \"ecl-link ecl-link--standalone ecl-navigation-inpage__link \" href= \"#inline-nav-3 \">Audio</a></li><li class= \"ecl-navigation-inpage__item \"><a class= \"ecl-link ecl-link--standalone ecl-navigation-inpage__link \" href= \"#inline-nav-4 \">Distribution</a></li><li class= \"ecl-navigation-inpage__item \"><a class= \"ecl-link ecl-link--standalone ecl-navigation-inpage__link \" href= \"#inline-nav-5 \">Copyright</a></li><li class= \"ecl-navigation-inpage__item \"><a class= \"ecl-link ecl-link--standalone ecl-navigation-inpage__link \" href= \"#inline-nav-6 \">AV Services</a></li></ul></div></nav></div><div class= \"ecl-col-md-9 \"><h2 class= \"ecl-heading ecl-heading--h2 \" id= \"inline-nav-1 \">Video</h2><p class= \"ecl-paragraph \"><strong>We cover Europe's news</strong><br />We ensure that all major events in the building of Europe and statements by major European personalities are recorded as they take place as well as all significant events happening in the EU institutions.Our recordings are made immediately available to media professionals worldwide.<br / ><br / ><strong>The living memory of Europe</strong><br />We offer you access to the most extensive library of audiovisual documents in existence on EU history. View footage from the first steps of the Common Market to the era of peace, security, prosperity and solidarity of today's European Union. Our archive is part of Europe's living memory and available to all.</p><h2 class= \"ecl-heading ecl-heading--h2 \" id= \"inline-nav-2 \">Photo</h2><p class= \"ecl-paragraph \"><strong>Picturing Europe</strong><br /> We deliver extensive photo coverage of all main EU-related news in both black & white and colour. Archive photos covering the main events of the European Community in the last sixty years are also available. <h2 class= \"ecl-heading ecl-heading--h2 \" id= \"inline-nav-3 \">Audio</h2><p class= \"ecl-paragraph \"><strong>The voices of Europe</strong><br/> We provide daily news coverage in broadcast quality audio. Hear key speeches and declarations by leading players in the building of Europe in their original language. Our library's sound archive footage covers principal developments in Europe since World War II.</p><h2 class= \"ecl-heading ecl-heading--h2 \" id= \"inline-nav-4 \">Distribution</h2><p class= \"ecl-paragraph \"><strong>Sights and sounds on air</strong><br />The European Union's TV information service Europe by Satellite (EbS) provides EU-related pictures and sound for media professionals and institutions. EbS is directly available to local, regional, national and international organisations in the Union, the Mediterranean area, and Central and Eastern Europe. EbS transmits a free to air signal via satellite and is also available via the internet. <br / ><br / > <strong>Live coverage, news summaries and stockshots</strong><br />Europe by Satellite offers live coverage of the main EU events and live daily news broadcasts. In addition, EbS offers thematic footage illustrating the daily news and video news releases related to the integration process in Europe. These services are available in natural sound and in up to 24 languages. <br / ><br /><strong>Online broadcasts</strong><br /> All EbS products are accessible to any connected media or individual anywhere in the world through the internet portal of the audiovisual service. Consult EbS' continually updated transmission schedule on this site, as well as shotlists detailing the content of pictures and links to complementary information sources and photos. Pictures and sound may be downloaded in broadcast quality formats: MPEG4 for video, MP3 for sound and JPEG for photos. This news material is published during or soon after the events, remains available for at least one month and is easy to download, process and file.</p><h2 class= \"ecl-heading ecl-heading--h2 \" id= \"inline-nav-5 \">Copyright</h2><p class= \"ecl-paragraph \">Audiovisual service' news material is offered free of charge for EU-related information and education purposes. Further details on our conditions of use are available in our <a href=\"copyright.html\"> copyright section</a>.</p><h2 class= \"ecl-heading ecl-heading--h2 \" id= \"inline-nav-6 \">AV Services</h2><p class= \"ecl-paragraph \"><strong>Assistance on the spot</strong><br />The audiovisual services of the European Commission situated in Brussels' Berlaymont building offer assistance and technical facilities to TV and radio journalists: <ul><li>two TV studios and one radio studio</li><li>editing facilities</li><li>video crews and filming facilities</li><li>access to archive footage</li><li>streaming facilities to social media platforms</li></ul>SEE THE VIRTUAL VISIT OF THE STUDIOS <br / ><br /><strong>We make filming easier for you</strong><br/>We can provide useful contacts and accompany news teams within our buildings. Details of visits by personalities, or other events at the Commission, are published on the AV portal in advance of the event. This information is also available in the press room of the Berlaymont building. <br / ><br /><strong>Register online</strong><br/>To access our services, please complete our request form. </p></div></div>",
+        "contact": "<h3>Contact us</h3><p><strong>TV crew/Photographer/Professional Studio facilities in Brussels:<br /><i>Audiovisual Planning</i></strong><br />Tel. +32 2 29 52123 mobile +32 470 999 004 ou email: <a href=\"mailto:planning-audiovisual@ec.europa.eu\">planning-audiovisual@ec.europa.eu</a></p><p><strong>TV crew/Photographer outside Brussels:<br /><i>Production Planning </i></strong><br />Tel. +32 2 29 60761 mobile +32 498 980 599 ou email: <a href=\"mailto:comm-production@ec.europa.eu\">comm-production@ec.europa.eu</a> </p><p><strong>EbS Newsdesk (EbS schedule and the EU's daily news):<br /><i>Newsdesk</i></strong><br />Tel. +32 2 29 64106 mobile +32 470 999 007ou email: <a href=\"mailto:newsdesk@ec.europa.eu\">newsdesk@ec.europa.eu</a> </p><p><strong>Online services - Audiovisual Portal:<br /><i>Eteam</i></strong><br />Tel. +32 2 29 57577 ou email: <a href=\"mailto:comm-eteam@ec.europa.eu\">comm-eteam@ec.europa.eu</a></p><p><strong>Audio and video copies for your productions with specialised support and guidance:<br /><i>Frontdesk</i></strong><br />Tel. +32 2 29 64105 ou email: <a href=\"mailto:comm-frontdesk@ec.europa.eu\">comm-frontdesk@ec.europa.eu</a></p><p><strong>Request photos for EU related coverage: <br /><i>Audiovisual Library</i></strong><br />Tel. +32 2 29 59597 ou email: <a href=\"mailto:comm-photo@ec.europa.eu\">comm-photo@ec.europa.eu</a></p><p><strong>Central deposit of AV productions:<br /><i>Audiovisual Library</i></strong><br />Tel. +32 2 29 99005 ou email: <a href=\"mailto:mediatheque@ec.europa.eu\">mediatheque@ec.europa.eu</a></p>",
+        "useful_links": "<h1>Liens utiles</h1><div class= \"ecl-row ecl-u-z-navigation ecl-u-pt-xl \"><div class= \"ecl-col-md-3 ecl-u-z-navigation \"><nav class= \"ecl-navigation-inpage \" ><div class= \"ecl-navigation-inpage__title \">Page content</div><div class= \"ecl-navigation-inpage__body \"><div class= \"ecl-navigation-inpage__trigger \" aria-controls= \"ecl-navigation-inpage-list \" aria-expanded= \"false \" id= \"ecl-navigation-inpage-trigger \">&nbsp;</div><ul class= \"ecl-navigation-inpage__list \" aria-hidden= \"true \" aria-labelledby= \"ecl-navigation-inpage-trigger \" id= \"ecl-navigation-inpage-list \"><li class= \"ecl-navigation-inpage__item \"><a class= \"ecl-link ecl-link--standalone ecl-navigation-inpage__link \" href= \"#inline-nav-2 \">Sites de la Commission européenne</a></li><li class= \"ecl-navigation-inpage__item \"><a class= \"ecl-link ecl-link--standalone ecl-navigation-inpage__link \" href= \"#inline-nav-3 \">Autres sites</a></li></ul></div></nav></div><div class= \"ecl-col-md-9 \"><h2 id= \"inline-nav-1 \">Sites de la Commission européenne</h2><p class= \"ecl-paragraph \"><ul><li><a href=\"http://www.youtube.com/eutube\" target=\"_blank\">EUTube</a></li><li><a href=\"https://twitter.com/EU_Commission\"target=\"_blank\">Page Twitter de la Commission européenne</a></li><li><a href=\"https://twitter.com/EC_AVService\"target=\"_blank\">Page Twitter des Services audiovisuels</a></li><li><a href=\"http://ec.europa.eu/europe2020/priorities/economic-governance/index_fr.htm\"target=\"_blank\">Gouvernance économique</a></li><li><a href=\"http://ec.europa.eu/trade/policy/in-focus/ttip/index_fr.htm\"target=\"_blank\">Le Partenariat transatlantique de Commerce et de l'Investissement (PTCI)</a></li><li><a href=\"https://www.facebook.com/EuropeanCommission\"target=\"_blank\">Page Facebook de la Commission européenne</a></li><li><a href=\"https://ec.europa.eu/info/strategy/european-semester_fr\"target=\"_blank\">Semestre européen</a></li><li><a href=\"http://ec.europa.eu/digital-single-market/\"target=\"_blank\">Stratégie numérique pour l’Europe (page en anglais)</a></li><li><a href=\"http://ec.europa.eu/priorities/energy-union/index_fr.htm\"target=\"_blank\">Union de l'Energie</a></li><li><a href=\"http://ec.europa.eu/budget/mff/index_fr.cfm\"target=\"_blank\">Cadre financier pluriannuel 2014-2020</a></li><li><a href=\"http://europa.eu/newsroom/home_fr\"target=\"_blank\">UE Espace Actualités</a></li><li><a href=\"http://ec.europa.eu/avservices/ebs/schedule.cfm\"target=\"_blank\">Audiovisuel - EbS Grille de programmation</a></li><li><a href=\"http://ec.europa.eu/avservices/photo/photoByDate.cfm?sitelang=fr\"target=\"_blank\">Audiovisuel - Couverture photo</a></li><li><a href=\"http://europa.eu/index_fr.htm\"target=\"_blank\">Europa</a></li><li><a href=\"http://ec.europa.eu/index_fr.htm\"target=\"_blank\">Commission européenne</a></li><li><a href=\"http://ec.europa.eu/dgs/communication/index_fr.htm\"target=\"_blank\">Direction générale Communication</a></li><li><a href=\"http://europa.eu/abc/european_countries/index_en.htm\">Pays européens (version EN)</a></li><li><a href=\"http://ec.europa.eu/COMMFrontOffice/PublicOpinion/\"target=\"_blank\">Eurobaromètre</a></li><li><a href=\"https://ec.europa.eu/info/departments/climate-action_fr\"target=\"_blank\">Action pour le climat</a></li><li><a href=\"https://ec.europa.eu/info/departments/eurostat-european-statistics_fr\"target=\"_blank\">Eurostat</a></li><li><a href=\"http://ec.europa.eu/economy_finance/euro/index_fr.htm\"target=\"_blank\">Euro</a></li><li><a href=\"http://ec.europa.eu/europedirect/index_fr.htm\"target=\"_blank\">Europe Direct</a></li><li><a href=\"https://ec.europa.eu/jrc/en/scientific-tool/europe-media-monitor-newsbrief\"target=\"_blank\">Europe Media Monitor</a></li><li><a href=\"http://ec.europa.eu/youth/index_en.htm\"target=\"_blank\">Portail Jeunesse</a></li><li><a href=\"http://ted.europa.eu/TED/main/HomePage.do\"target=\"_blank\">Journal Officiel - Opportunités commerciales - TED</a></li><li><a href=\"http://europa.eu/whoiswho/public/index.cfm?fuseaction=idea.hierarchy&nodeid=3780\">Representations of the European Commission in the European Union</a></li></ul></p><h2 id= \"inline-nav-1 \">Autres sites</h2>Les liens vers des sites extérieurs sont prévus pour votre facilité et n'impliquent NI approbation NI garantie de la part des services de la Commission en ce qui concerne : toute organisation ou tout particulier chargé de gérer ou de fournir le contenu de l'un des sites répertoriés, les services dont ces sites assurent la publicité, le contenu de ces sites ou les opinions qui y sont exprimées.<br><br><ul><li><a href=\"https://www.ebrd.com/fr/home\"target=\"_blank\">Banque Européenne pour la Reconstruction et le Dévelppement</a></li><li><a href=\"https://www.europarltv.europa.eu/fr/home\"target=\"_blank\">Parlement européen - EuroparlTV</a></li><li><a href=\"http://www.nato.int/cps/fr/natohq/index.htm/\"target=\"_blank\">OTAN</a></li><li><a href=\"http://tvnewsroom.consilium.europa.eu/\"target=\"_blank\">Conseil de l'UE - TV Newsroom</a></li><li><a href=\"http://www.friendsofeurope.org/\"target=\"_blank\">Amis de l'Europe (page en anglais)</a></li><li><a href=\"http://www.un.org/fr/\"target=\"_blank\">Nations unies</a></li><li><a href=\"http://europarl.europa.eu/news/public/default_fr.htm\"target=\"_blank\">Parlement européen</a></li><li><a href=\"http://www.consilium.europa.eu/homepage?lang=fr\"target=\"_blank\">Conseil de l'Union européenne</a></li><li><a href=\"http://www.consilium.europa.eu/press.aspx?lang=fr\"target=\"_blank\">Conseil de l'Union européenne - Service à la presse</a></li><li><a href=\"http://www.eesc.europa.eu/?i=portal.fr.home\"target=\"_blank\">Comité économique et social</a></li><li><a href=\"http://www.cor.europa.eu/\"target=\"_blank\">Comité des régions</a></li><li><a href=\"http://curia.europa.eu/jcms/jcms/j_6/?PortalAction_x_000_userLang=fr/\"target=\"_blank\">Cour de Justice et Tribunal de Première Instance</a></li><li><a href=\"http://eur-lex.europa.eu/n-lex/index_fr.htm/\"target=\"_blank\">Accès commun aux sources du droit national</a></li><li><a href=\"http://www.eca.europa.eu/\"target=\"_blank\">Cour des Comptes</a></li><li><a href=\"http://www.eib.org/\"target=\"_blank\">Banque européenne d'investissement</a></li><li><a href=\"http://www.ecb.int/home/html/index.en.html\"target=\"_blank\">Banque centrale européenne</a></li><li><a href=\"http://www.jean-monnet.ch/index.php?&\"target=\"_blank\">Fondation Jean Monnet pour l'Europe</a></li><li><a href=\"http://www.robert-schuman.eu/fr/\"target=\"_blank\">Fondation 'Robert Schuman'</a></li><li><a href=\"http://www.oecd.org/\"target=\"_blank\">OCDE - Organisation de coopération et de développement économiques</a></li></ul></div></div>",
+        "EuropebySatellite": "Europe by Satellite (EbS), le service d'informations télévisées de l'Union européenne, fournit aux professionnels des médias du matériel audiovisuel lié à l'UE par satellite et en ligne.",
+        "activities": "<h1>Activities</h1><div class= \"ecl-row ecl-u-z-navigation ecl-u-pt-xl \"><div class= \"ecl-col-md-3 ecl-u-z-navigation \"><nav class= \"ecl-navigation-inpage \" ><div class= \"ecl-navigation-inpage__title \">Page content</div><div class= \"ecl-navigation-inpage__body \"><div class= \"ecl-navigation-inpage__trigger \" aria-controls= \"ecl-navigation-inpage-list \" aria-expanded= \"false \" id= \"ecl-navigation-inpage-trigger \">&nbsp;</div><ul class= \"ecl-navigation-inpage__list \" aria-hidden= \"true \" aria-labelledby= \"ecl-navigation-inpage-trigger \" id= \"ecl-navigation-inpage-list \"><li class= \"ecl-navigation-inpage__item \"><a class= \"ecl-link ecl-link--standalone ecl-navigation-inpage__link \" href= \"#inline-nav-1 \">What is Europe by Satellite (EbS)?</a></li><li class= \"ecl-navigation-inpage__item \"><a class= \"ecl-link ecl-link--standalone ecl-navigation-inpage__link \" href= \"#inline-nav-2 \">EbS offers</a></li><li class= \"ecl-navigation-inpage__item \"><a class= \"ecl-link ecl-link--standalone ecl-navigation-inpage__link \" href= \"#inline-nav-3 \">EbS on the satellite</a></li><li class= \"ecl-navigation-inpage__item \"><a class= \"ecl-link ecl-link--standalone ecl-navigation-inpage__link \" href= \"#inline-nav-4 \">EbS on the Internet </a></li><li class= \"ecl-navigation-inpage__item \"><a class= \"ecl-link ecl-link--standalone ecl-navigation-inpage__link \" href= \"#inline-nav-5 \">Languages covered</a></li><li class= \"ecl-navigation-inpage__item \"><a class= \"ecl-link ecl-link--standalone ecl-navigation-inpage__link \" href= \"#inline-nav-6 \">Contact EbS</a></li></ul></div></nav></div><div class= \"ecl-col-md-9 \"><h2 class= \"ecl-heading ecl-heading--h2 \" id= \"inline-nav-1 \">What is Europe by Satellite?</h2><p class= \"ecl-paragraph \">EbS, the European Union's TV information service, provides EU-related audiovisual material via satellite to media professionals. <br/><br/>The programming consists of a mix of live events, news items, stockshots on EU policies and issues.</p><h2 class= \"ecl-heading ecl-heading--h2 \" id= \"inline-nav-2 \">EbS offers</h2><p class= \"ecl-paragraph ecl-paragraph--2 \"><ul><li>institutional content from the European Commission, the European Parliament, the Council of Ministers, the European Central Bank and other institutions</li><li>live coverage of press conferences and briefings from the institutions, EP plenary sessions, European Councils </li><li>stockshots, info clips and clips produced by the audiovisual service and other EU institutions</li><li>online streaming of live and on demand EbS items up to 7 days following the original transmission</li><li>online broadcast quality video and audio files (MPEG4 and MP3 respectively) available for download directly from the website</li></ul></p><h2 class= \"ecl-heading ecl-heading--h2 \" id= \"inline-nav-3 \">EbS on the satellite</h2><p class= \"ecl-paragraph \">EbS is transmitted using a non-encrypted signal which can be received using readily available equipment. It can be seen in Europe, North Africa and the Middle East. + ajouter contenu page http://ec.europa.eu/avservices/ebs/satellite.cfm?sitelang=en</p><h2 class= \"ecl-heading ecl-heading--h2 \" id= \"inline-nav-4 \">EbS on the Internet</h2><p class= \"ecl-paragraph \">This site allows you to follow EbS programmes live or on demand for up to 7 days following the original transmission in all of the languages available at the time of the broadcast. <br/> The schedule provides continually updated information and covers a 3 week period (previous, current and following weeks). <br/> The details provided include the time and title of the event as well as the availability of interpretation into other languages. <br/> Where appropriate there will also be a shotlist, press releases, relevant internet links and photographic coverage. <br/><br/> <strong>To follow EbS on the internet  </strong><br/> <ul><li>click on the EbS or EbS+ schedule </li><li>for live transmission, click on the EbS or EbS+ live button </li><li>for material transmitted in the previous 7 days, click on the picture related to the relevant item </li><li>all times are in Central European Time</li></ul><strong>Requirements to follow EbS live or on demand </strong><br/>This site is optimized with the following software <ul><li>Explorer 9+ / Firefox 39+ / Safari 6+ / Chrome 40+ </li><li>this site uses JavaScript and cookies </li></ul>To ensure smooth navigation throughout our website, please ensure you have at least the specified versions of these software packages on your PC. <br/><br/>If you connect to the internet through a firewall or proxy server, you may not be able to view our online transmissions. <br/><br/><strong>Corporate video player </strong><br/>Please check our online tutorial to get the most of our video player.<br/><br/></p><h2 class= \"ecl-heading ecl-heading--h2 \" id= \"inline-nav-5 \">Languages covered</h2><p class= \"ecl-paragraph \">Live events are generally covered in the original language plus simultaneous translation into all EU languages when available. Occasionally other languages are provided through additional audio channels as and when required. The original (international) audio sound is transmitted when a particular language is not available. <br/>News footage and video stockshot material are broadcast with natural sound only. <br/><br/><strong>Always refer to the EbS schedule for a list of the languages available for each transmission. </strong><br/>Very few satellite TV channels have multiple audio channels and it is possible that certain satellite receivers may behave in an unpredictable manner. If your receiver is not performing as expected, please email us.</p><h2 class= \"ecl-heading ecl-heading--h2 \" id= \"inline-nav-6 \">Contact</h2><p class= \"ecl-paragraph \">Europe by Satellite<br/>Berlaymont 4/289<br/>Tel. +32 2 296 41 06<br/>Fax +32 2 230 12 80<br/>email: newsdesk@ec.europa.eu</p></div></div>",
+        "assistance": "<div class= \"ecl-row ecl-u-z-navigation ecl-u-pt-xl \"><div class= \"ecl-col-md-3 ecl-u-z-navigation \">  <nav class= \"ecl-navigation-inpage \" >  <div class= \"ecl-navigation-inpage__body \">    <div class= \"ecl-navigation-inpage__trigger \" aria-controls= \"ecl-navigation-inpage-list \" aria-expanded= \"false \" id= \"ecl-navigation-inpage-trigger \">    &nbsp;</div>  <ul class= \"ecl-navigation-inpage__list \" aria-hidden= \"true \" aria-labelledby= \"ecl-navigation-inpage-trigger \" id= \"ecl-navigation-inpage-list \">  <li class= \"ecl-navigation-inpage__item \"><a class= \"ecl-link ecl-link--standalone ecl-navigation-inpage__link \" href= \"#inline-nav-1 \">Assistance technique</a></li>  <li class= \"ecl-navigation-inpage__item \"><a class= \"ecl-link ecl-link--standalone ecl-navigation-inpage__link \" href= \"#inline-nav-2 \">Conditions d'utilisation</a></li>  <li class= \"ecl-navigation-inpage__item \"><a class= \"ecl-link ecl-link--standalone ecl-navigation-inpage__link \" href= \"#inline-nav-3 \">Installations techniques</a></li>  <li class= \"ecl-navigation-inpage__item \"><a class= \"ecl-link ecl-link--standalone ecl-navigation-inpage__link \" href= \"#inline-nav-4 \">Contact</a></li>  </ul></div></nav></div><div class= \"ecl-col-md-9 \"><h2 class= \"ecl-heading ecl-heading--h2 \" id= \"inline-nav-1 \">Assistance technique</h2><p class= \"ecl-paragraph \">Un environnement audiovisuel professionnel au BerlaymontLe Service audiovisuel de la Commission européenne situé dans le bâtiment Berlaymont, offre plusieurs types d’assistances et facilités techniques aux journalistes TV et radio:<br />  <br /><ul>  <li>Deux studios TV et un studio radio</li>  <li>Des facilités de montage</li>  <li>Des facilités de tournage ENG</li>  <li>Un accès aux archives</li>  <li>Des facilités de streaming vers des plateformes de Médias Sociaux (Facebook Live / Skype / Periscope) et vers des réseaux privés.</li></ul><br/><strong>VISITE VIRTUELLE</strong><br /></p><h2 class= \"ecl-heading ecl-heading--h2 \" id= \"inline-nav-2 \">CONDITIONS D’UTILISATION</h2><p class= \"ecl-paragraph \">Les services énumérés ci-dessus sont mis gracieusement à la disposition des stations radio/TV et journalistes audiovisuels sous réserve de priorités et conditions d’utilisation.<br/>  <br/>  <strong>Gestion des priorités:</strong><br/>  <br/>  Les demandes d’assistance sont satisfaites sur la base du “premier arrivé, premier servi” en donnant priorité absolue aux sujets impliquant un représentant de la Commission (le Président, les Commissaires, les porte-paroles, les cadres supérieurs de la Commission qui peuvent s'exprimer au nom de l’institution) et qui satisfont à tous ou certains des critères suivants: <br/><ul>  <li>Couverture de l’actualité communautaire</li>  <li>Productions couvrant un des thèmes prioritaires du programme de travail de la Commission européenne</li>  <li>Stations Radio et TV d’un Etat membre ou d’un pays candidat à l’UE</li></ul>L’utilisation des équipes et des moyens de montage est limitée à un maximum de 2h30 (y inclus tournage, montage et transmission) pour chaque utilisateur. Pour les utilisateurs réguliers (hebdomadaire/mensuel), l’équipe du Planning audiovisuel doit être contacté pour l'analyse du projet.<br/><br/><strong>Réservation des studios:</strong><br/><br/>L’équipe du Planning audiovisuel doit être contacté pour toute réservation et information sur la disponibilité de nos ressources au jour et à l’heure souhaités : planning-audiovisual@ec.europa.eu / Tel: +32 2 295 21 23 <br/><br/><strong>Informations nécessaires lors de la réservation:</strong><br/><ul>  <li>Coordonnées de la station de production et du responsable</li>  <li>Sujet du programme et brève description</li>  <li>Date, heure et durée de la réservation / l’enregistrement</li>  <li>Type de production : Enregistrement, Diffusion Live, Studio Duplex</li>  <li>Nombre de participants dans le studio</li>  <li>Post-production (montage), si nécessaire</li>  <li>Transfert FTP, si nécessaire</li></ul><strong>Autres informations importantes:</strong><br />Lorsque des services de transmission sont requis, le Service audiovisuel peut offrir différents moyens de connexion via ses contractants/partenaires. Dans ce cas, la réservation doit être effectuée et prise en charge par l’utilisateur/client au contractant/partenaire concerné. Plus de détails peuvent être obtenus de l’équipe du Planning audiovisuel.<br /><br />La participation de la Commission est limitée à l’assistance technique. La Commission n’est pas responsable du contenu (ligne éditoriale, informations, expression d’opinion, etc.) et des programmes produits. <br /><br /></p><h2 class= \"ecl-heading ecl-heading--h2 \" id= \"inline-nav-3 \">INSTALLATIONS TECHNIQUES</h2><p class= \"ecl-paragraph \"><strong>Equipe ENG :</strong><br/>  Cameraman et ingénieur du son<br />  Possibilités de streaming live<br />  <br />  <strong>TV Studio 1</strong><br/><ul>  <li>Superficie de 187 m²</li>  <li>Cyclorama de 5.5 m de hauteur</li>  <li>2 cabines d’interprétation</li>  <li>Scène avec une table jusqu’à 6 participants</li>  <li>Tribune de 25 places pour la participation d’un public</li>  <li>Jusqu’à 6 caméras de studio HD</li>  <li>Téléprompteur</li>  <li>Set d’éclairage complet</li></ul><strong>TV Studio 2</strong><br/><ul>  <li>Superficie de 70 m²</li>  <li>Cyclorama de 5.5 m de hauteur</li>  <li>4 cabines d’interprétation</li>  <li>Jusqu’à 3 caméras de studio HD</li>  <li>Téléprompteur</li>  <li>Set d’éclairage complet</li></ul><strong>Studio Radio Visuel</strong><br/><ul>  <li>Capacité: 6 personnes</li>  <li>3 caméras HD</li>  <li>Connectivité ISDN et IP</li>  <li>Montage et mixage non-linéaire</li></ul><strong>Montage Video</strong><br/><ul>  <li>Système de montage non-linéaire EDIUS (Grass Valley)</li>  <li>Format Vidéo DVCPRO HD</li>  <li>Enregistrement de voix-off</li></ul><strong>Copies et distribution de médias et d’images d’archive</strong><br/> La plupart des productions récentes sont disponibles au téléchargement sur notre portail audiovisuel. Les images d’archive peuvent être obtenues via le service Front Desk (comm-frontdesk@ec.europa.eu / Tel:+32 2 296 41 05). Les fichiers peuvent être obtenus par FTP ou sur tout dispositif de stockage de données – clé USB ou HDD/SSD (à fournir par l’utilisateur)<br /><br /><strong>\"Green room\" et salle de maquillage sont disponibles à proximité des studios</strong><br/><br /></p><h2 class= \"ecl-heading ecl-heading--h2 \" id= \"inline-nav-4 \">Contacts & Demandes d’information</h2><p class= \"ecl-paragraph \">Planning audiovisuel<br />  Berlaymont -1/ME23<br />  Tel: +32 2 295 21 23<br />  email: planning-audiovisual@ec.europa.eu</p></div></div>"
+
+    }
+
+}

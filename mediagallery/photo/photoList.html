@@ -1,0 +1,19 @@
+<div class="row">
+    <div class="col-xs-{{12/photos.length}}" ng-repeat="photo in photos">
+        <a ui-sref="language.reportage({ref:photo.ref,index:1})">
+        	<div align="center">
+                <img style="margin-bottom:5px" width="300" height="180" border="0" ng-src="{{photo.thumb}}" alt="" />
+            </div>
+        </a>
+        <div>
+        	<div>
+            	{{photo.title|translateDB}}
+           	</div>
+            <div>
+                <span class="small quiet">{{'photo.reference_number'|translate}}:</span> <span class="small" style="color:#3399cc">{{photo.ref}}</span>
+                |
+                <span class="small quiet">{{'photo.event_date'|translate}}:</span> <span class="small" style="color:#3399cc">{{photo.date}}</span>
+           	</div>
+        </div>
+    </div>
+</div>

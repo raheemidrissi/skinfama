@@ -1,0 +1,48 @@
+	<section class="ecl-carousel" aria-hidden="true" id="ecl-carousel" aria-labelledby="ecl-carousel__heading">
+	  <h3 class="ecl-headings ecl-headings--h3 ecl-u-sr-only" id="ecl-carousel__heading">Example gallery carousel</h3>
+	  <div class="ecl-carousel__list-wrapper">
+	    <ul class="ecl-carousel__list ecl-list--unstyled">
+	      <li class="ecl-carousel__item" ng-repeat="item in items">
+	        <img ng-src="{{item.thumb}}" alt="First item" class="ecl-carousel__image" ng-show="type='PHOTO'"/>
+	        <div ng-include="'mediagallery/video/player.html'" ng-init="video=item" ng-show="type='VIDEO'"></div>ss
+	      </li>
+	    </ul>
+	    
+	  </div>
+	  <div class="ecl-carousel__live-region">
+	    <div class="ecl-carousel__image-information" ng-repeat="item in items" data-image="{{$index}}">
+	      <div class="ecl-carousel__meta">
+	        <span class="ecl-carousel__meta-item ecl-carousel__meta-download">
+	         	<a class="ecl-link ecl-link--inverted ecl-link--standalone ecl-carousel__meta-link ecl-icon ecl-icon--download" ng-href="{{item.image[0].path}}" download="{{item.doc_ref}}-{{$index}}">Download</a> 
+	        </span>
+	        <span class="ecl-carousel__meta-item ecl-carousel__meta-share">
+				<share-network></share-network>
+	        </span>
+	      </div>
+	      <div class="ecl-carousel__image-description">
+	        {{item.summary | translateDB}}
+	      </div>
+<div class="avs-media-details  avs-bg-grey-10 ecl-u-pv-xxxs ecl-u-ph-xs">
+            <div class="main-details">
+ 	<p class="ecl-paragraph ecl-paragraph--m"><span class="fas fa-calendar"></span> <strong>{{'label.event_date'|translate}}:</strong> {{item.date}} </p>
+	<p class="ecl-paragraph ecl-paragraph--m"><span class="fas fa-user"></span> <strong>{{'label.reference_number'|translate}}:</strong> {{item.ref}} </p>
+	<p class="ecl-paragraph ecl-paragraph--m" ng-show="item.institution.length"><span class="fas fa-university"></span> <strong>{{'label.institution'|translate}}:</strong> <span ng-repeat="inst in item.institution">{{inst.titles | translateDB}}<span ng-if="! $last"> , </span></span> </p>
+	<p class="ecl-paragraph ecl-paragraph--m" ng-show="item.location.length"><span class="fas fa-map-marker-alt"></span> <strong>{{'label.location'|translate}}:</strong> <span ng-repeat="loc in item.location">{{loc.value | translateDB}}<span ng-if="! $last"> , </span></span> </p>
+	<p class="ecl-paragraph ecl-paragraph--m" ng-show="item.thesaurus.length"><span class="fas fa-tag"></span> <strong>{{'label.tag'|translate}}:</strong> <span ng-repeat="thes in item.thesaurus"><a class="ecl-link" ui-sref="language.search({thesaurus:thes.id})">{{thes.value | translateDB}}</a><span ng-show="! $last"> , </span></span> </p>
+	<p class="ecl-paragraph ecl-paragraph--m" ng-show="item.personalities.length"><span class="fas fa-user"></span> <strong> {{'label.person'|translate}}:</strong> <span ng-repeat="pers in item.personalities"><a class="ecl-link" ui-sref="language.search({personalities:pers.id})">{{pers | fmPersonnality}}</a><span ng-if="! $last"> , </span></span> </p>
+	<p class="ecl-paragraph ecl-paragraph--m"><strong>{{'label.type_of_transmissions'|translate}} :</strong> {{item.genre}}</p>
+	<p class="ecl-paragraph ecl-paragraph--m"><span class="fas fa-eye"></span> <strong>{{'label.views'|translate}} :</strong> {{item.views}}</p>
+            </div>
+            <hr>
+            <div class="secondary-details">
+	<p class="ecl-paragraph ecl-paragraph--m" ng-repeat="(key,value) in photo.photographer">
+		<strong>{{key }}:</strong>
+		<span ng-repeat="val in value"><br/>&nbsp;&nbsp;&nbsp;{{val}}<span ng-if="! $last"> , </span></span></p>
+	<p class="ecl-paragraph ecl-paragraph--m"><strong>{{'label.copyright'|translate}}:</strong> {{item.copyright | fmCopyright}} </p>
+            </div>
+        </div>	      <div class="ecl-carousel__image-copyright">
+	        © Copyright 1
+	      </div>
+	    </div>
+	  </div>
+	</section>

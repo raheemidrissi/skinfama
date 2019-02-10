@@ -1,0 +1,184 @@
+
+<!-- // EUROPE BY SATELLITE ////////////////////////////////////////////////////////////////////////////////////// -->
+<div class="ecl-row">
+    <div class="ecl-col-lg-12">
+        <h1 class="ecl-heading ecl-heading--h2">{{'menu.europe_by_satellite'|translate}}</h1>
+        <p class="ecl-paragraph ecl-paragraph--m">{{'staticpage.EuropebySatellite'|translate}}</p>
+    </div>
+</div>
+
+<div class="ecl-row">
+
+    <div class="ecl-col-lg-6">
+        <section class="ecl-file ecl-file--video">
+			<avportal-video video="video"
+				cloud="isCloud" 
+				channel="liveChannel" 
+				autostart="true" 
+				language="lang" 
+				sublanguage="sublg" 
+				starttime="tin" 
+				endtime="tout"
+				show-switch-live="true" pip="'0.1'"></avportal-video>
+        </section>
+    </div>
+    <div class="ecl-col-lg-6">
+        <div class="ecl-u-justify-content-between ecl-u-align-items-end ecl-u-d-lg-flex" ng-hide="liveChannel == 2">
+            <div>
+                <h2 class="ecl-u-mv-xs ebs-color">{{'menu.ebs_schedule'|translate}}</h2>
+                <notice-ebs prog="nextSchedule.warning" ng-show="nextSchedule.warning"></notice-ebs>
+                <h5 class="ecl-u-mv-xxs" ng-show="nextSchedule.onAir.seq.hour">
+                	<span class="ecl-u-mr-none ecl-tag__item ecl-u-bg-secondary avs-bg-error ecl-u-color-white">{{'ebs.on_air'|translate}}</span>
+                </h5>
+                <p class="ecl-paragraph--s ecl-u-mv-none" ng-show="nextSchedule.onAir.seq.hour">
+                    <strong>{{nextSchedule.onAir.seq.hour}}</strong> -
+                    <span ng-bind-html="nextSchedule.onAir.prog.title|translateDB | fmLimitTo:120:' ...'"></span> 
+                    <span ng-bind-html="nextSchedule.onAir.seq.title|translateDB | fmLimitTo:240:' ...'"></span> 
+                </p>
+		        <h5 class="ecl-u-mv-xxs" ng-hide="nextSchedule.onAir.seq.hour">
+		        	{{'ebs.next_on_ebs'|translate}}
+		        </h5>
+		        <p class="ecl-paragraph--xs ecl-u-mv-none" ng-hide="nextSchedule.onAir.seq.hour">
+		        	<span ng-hide="nextSchedule.nextOn.prog.isToday"><strong>{{nextSchedule.nextOn.prog.fmdate}}</strong> - </span>
+		        	<span ng-hide="nextSchedule.nextOn.prog.prop.id == 14"><strong>{{nextSchedule.nextOn.seq.hour || nextSchedule.nextOn.prog.hour}}</strong> - </span>
+		        	<span ng-show="nextSchedule.nextOn.prog.prop.id == 14"><strong>{{nextSchedule.nextOn.prog.prop.lg_text|translateDB}}</strong> - </span>
+		            <span ng-bind-html="nextSchedule.nextOn.prog.title|translateDB | fmLimitTo:120:' ...'"></span>
+                    <br ng-if="nextSchedule.nextOn.prog.title.EN"/> 
+                    <span ng-bind-html="nextSchedule.nextOn.seq.title|translateDB | fmLimitTo:240:' ...'" ></span>
+		        </p>
+                <a  ui-sref="language.ebs({channel:1})" class="ecl-link-block__item ecl-button ecl-button--call ecl-button--caret-right ecl-u-mt-xxs">{{'ebs.full_schedule_ebs'|translate}}</a>
+            </div>
+        </div>
+
+        <div class="ecl-u-justify-content-between ecl-u-align-items-end ecl-u-d-lg-flex" ng-hide="liveChannel == 1"> 
+            <div>
+                <h2 class="ecl-u-mv-xs ebs-plus-color">{{'menu.ebs_plus_schedule'|translate}}</h2>
+                <notice-ebs prog="nextScheduleplus.warning" ng-show="nextScheduleplus.warning"></notice-ebs>
+		        <h5 class="ecl-u-mv-xxs" ng-show="nextScheduleplus.onAir.seq.hour">
+		        	<span class="ecl-u-mr-none ecl-tag__item ecl-u-bg-secondary avs-bg-error ecl-u-color-white">{{'ebs.on_air'|translate}}</span>
+		        </h5>
+		        <p class="ecl-paragraph--xs ecl-u-mv-none" ng-show="nextScheduleplus.onAir.seq.hour">
+		        	<strong>{{nextScheduleplus.onAir.seq.hour}}</strong> - 
+                    <span ng-bind-html="nextScheduleplus.onAir.prog.title|translateDB | fmLimitTo:120:' ...'"></span>
+                    <br ng-if="nextScheduleplus.onAir.prog.title.EN" / > 
+                	<span ng-bind-html="nextScheduleplus.onAir.seq.title|translateDB | fmLimitTo:240:' ...'"></span>
+		        </p>
+		        <h5 class="ecl-u-mv-xxs" ng-show="nextScheduleplus.onAir.seq.hour" ng-hide="nextScheduleplus.onAir.seq.hour">
+		        	{{'ebs.next_on_ebs_plus'|translate}}
+		        </h5>
+		        <p class="ecl-paragraph--xs ecl-u-mv-none" ng-hide="nextScheduleplus.onAir.seq.hour">
+		        	<span ng-hide="nextScheduleplus.nextOn.prog.isToday"><strong>{{nextScheduleplus.nextOn.prog.fmdate}}</strong> - </span>
+		        	<span ng-hide="nextScheduleplus.nextOn.prog.prop.id == 14"><strong>{{nextScheduleplus.nextOn.seq.hour || nextScheduleplus.nextOn.prog.hour}}</strong> - </span>
+		        	<span ng-show="nextScheduleplus.nextOn.prog.prop.id == 14"><strong>{{nextScheduleplus.nextOn.prog.prop.lg_text|translateDB}}</strong> - </span>
+		             <span class="ecl-paragraph--xs ecl-u-mv-none" ng-bind-html="nextScheduleplus.nextOn.prog.title|translateDB | fmLimitTo:120:' ...'"></span>
+                     <br ng-if="nextScheduleplus.nextOn.prog.title.EN" / > 
+                     <span class="ecl-paragraph--xs ecl-u-mv-none" ng-bind-html="nextScheduleplus.nextOn.seq.title|translateDB | fmLimitTo:240:' ...'" ></span>
+		        </p>
+                <a ui-sref="language.ebs({channel:2})" class="ecl-link-block__item ecl-button ecl-button--call ecl-button--caret-right ecl-u-mt-xxs">{{'ebs.full_schedule_ebs_plus'|translate}}</a>
+            </div>
+        </div>
+        <hr class="ecl-u-mv-xs">
+        <div class="ecl-u-justify-content-between ecl-u-align-items-end ecl-u-d-flex">
+            <div>
+                <h4 class="ecl-u-mv-xs"><a class="ecl-link ecl-link--standalone" ui-sref="language.ebsBoth">{{'menu.all_schedules'|translate}}</a></h4>
+                <p class="ecl-paragraph--xs ecl-u-mv-none">
+                    {{'home.schedule_description'|translate}} 
+                </p>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- // TOP NEWS (FOCUS) ///////////////////////////////////////////////////////////////////////////////////////// -->
+<featured-top featured="featuredtop" ></featured-top>
+
+
+<!-- // VIDEO STOCKSHOTS ///////////////////////////////////////////////////////////////////////////////////////// -->
+
+<div>    
+    <div class="ecl-row">
+        <div class="ecl-col-lg-12">
+            <h1>{{'video.video_stockshots'|translate}}</h1>
+            <p class="ecl-paragraph ecl-paragraph--m">{{'video.video_stockshots_description'|translate}}</p>
+        </div>
+    </div>
+
+    <liste-vignette medias="videosStockshot" />
+
+    <div class="ecl-row">
+        <div class="ecl-col-lg-12">
+            <strong>
+                <a class="ecl-u-mt-s ecl-u-f-r ecl-link avs-file ecl-button--caret-right ecl-u-text-uppercase ecl-link--standalone" ui-sref="language.search({'mediatype': 'VIDEO', 'categories': 'Stockshot'})">{{ 'video.more_video_stockshots' | translate}}</a>
+            </strong>
+        </div>
+    </div>
+
+</div> 
+
+
+
+<!-- // VIDEO CLIPS ///////////////////////////////////////////////////////////////////////////////////////// -->
+<div>
+
+    <div class="ecl-row">
+        <div class="ecl-col-lg-12">
+            <h1>{{'video.clips'|translate}}</h1>
+            <p class="ecl-paragraph ecl-paragraph--m">{{'video.clips_description'|translate}}</p>
+        </div>
+    </div>
+
+    <liste-vignette medias="videosClip" />
+
+    <div class="ecl-row">
+        <div class="ecl-col-lg-12">
+            <strong>
+                <a class="ecl-u-mt-s ecl-u-f-r ecl-link avs-file ecl-button--caret-right ecl-u-text-uppercase ecl-link--standalone" ui-sref="language.search({'mediatype': 'VIDEO', 'categories': 'Clip'})">{{ 'video.more_clips' | translate}}</a>
+            </strong>
+        </div>
+    </div>
+
+</div> 
+
+
+<!-- // PHOTO NEWS ///////////////////////////////////////////////////////////////////////////////////////// -->
+<div>
+    <div class="ecl-row">
+        <div class="ecl-col-lg-12">
+            <h1>{{'photo.photo_news'|translate}}</h1>
+            <p class="ecl-paragraph ecl-paragraph--m">{{'photo.photo_news_description'|translate}}</p>
+        </div>
+        </div>
+
+        <liste-vignette medias="photosNews" />
+
+        <div class="ecl-row">
+            <div class="ecl-col-lg-12">
+                <strong>
+                    <a class="ecl-u-mt-s ecl-u-f-r ecl-link avs-file ecl-button--caret-right ecl-u-text-uppercase ecl-link--standalone" ui-sref="language.search({'mediatype': 'PHOTO', 'categories': 'Photonews'})">{{ 'photo.more_photo_news' | translate}}</a>
+                </strong>
+            </div>
+        </div>
+    </div> 
+</div>
+
+
+
+<!-- // PHOTO ILLUSTRATION ///////////////////////////////////////////////////////////////////////////////////////// -->
+<div class="avs-listing-three-columns-highlights avs-listing-three-columns-highlights-with-paragraph">
+    <div class="ecl-row">
+        <div class="ecl-col-lg-12">
+            <h1>{{'photo.creative_photos'|translate}}</h1>
+            <p class="ecl-paragraph ecl-paragraph--m">{{'photo.creative_photos_description'|translate}}</p>
+        </div>
+    </div>
+
+    <liste-vignette medias="photosIllustration" />
+
+    <div class="ecl-row">
+        <div class="ecl-col-lg-12">
+            <strong>
+                <a class="ecl-u-mt-s ecl-u-f-r ecl-link avs-file ecl-button--caret-right ecl-u-text-uppercase ecl-link--standalone" ui-sref="language.search({'mediatype': 'PHOTO', 'categories': 'Illustration'})">{{ 'photo.more_creative_photos' | translate}}</a>
+            </strong>
+        </div>
+    </div>
+</div> 

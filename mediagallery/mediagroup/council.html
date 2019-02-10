@@ -1,0 +1,67 @@
+
+<h1 ng-bind-html="MediaGroup.title | translateDB"></h1>
+<h3 ng-bind-html="MediaGroup.summary | translateDB"></h3>
+<h3 ng-bind-html="MediaGroup.description | translateDB"></h3>
+
+<div class="ecl-context-nav ecl-comment__meta">
+  <!--<span class="ecl-context-nav__label">{{'Filter : ' | translate}}</span>-->
+  <ul class="ecl-context-nav__list">
+    <li class="ecl-context-nav__item">
+      <a class="ecl-link ecl-link--standalone"  ng-click="ShowPeriod('','')">{{'All' | translate}}</a>
+    </li>
+    <li class="ecl-context-nav__item">
+      <a class="ecl-link ecl-link--standalone"  ng-click="ShowPeriod('2015','')">{{'Now' | translate}} - 2015</a>
+    </li>
+    <li class="ecl-context-nav__item">
+      <a class="ecl-link ecl-link--standalone"  ng-click="ShowPeriod('2010','2015')">2015 - 2010</a>
+    </li>
+    <li class="ecl-context-nav__item">
+      <a class="ecl-link ecl-link--standalone"  ng-click="ShowPeriod('2005','2010')">2005 - 2010</a>
+    </li>
+    <li class="ecl-context-nav__item">
+      <a class="ecl-link ecl-link--standalone"  ng-click="ShowPeriod('2000','2005')">2000 - 2005</a>
+    </li>
+    <li class="ecl-context-nav__item">
+      <a class="ecl-link ecl-link--standalone"  ng-click="ShowPeriod('1995','2000')">1995 - 2000</a>
+    </li>
+    <li class="ecl-context-nav__item">
+      <a class="ecl-link ecl-link--standalone"  ng-click="ShowPeriod('1990','1995')">1990 - 1995</a>
+    </li>
+    <li class="ecl-context-nav__item">
+      <a class="ecl-link ecl-link--standalone"  ng-click="ShowPeriod('1985','1990')">1985 - 1990</a>
+    </li>
+    <li class="ecl-context-nav__item">
+      <a class="ecl-link ecl-link--standalone"  ng-click="ShowPeriod('1980','1985')">1980 - 1985</a>
+    </li>
+    <li class="ecl-context-nav__item">
+      <a class="ecl-link ecl-link--standalone"  ng-click="ShowPeriod('1975','1980')">1975 - 1980</a>
+    </li>
+    <!--<li class="ecl-context-nav__item ecl-context-nav__more">
+      <button type="submit" class="ecl-button ecl-button--none ecl-button--caret-right ecl-context-nav__button ecl-link ecl-link--standalone">{{'More' | translate}}</button>
+    </li>-->
+  </ul>
+</div>
+
+<!--
+<div>
+	<a class="ecl-link" ng-click="ShowPeriod('','')">{{'all' | translate}}</a>
+	<a class="ecl-link" ng-click="ShowPeriod('','1975')">{{'before' | translate}} 1975</a>
+	<a class="ecl-link" ng-click="ShowPeriod('1975','1980')">1975 - 1980</a>
+	<a class="ecl-link" ng-click="ShowPeriod('1980','1985')">1980 - 1985</a>
+	<a class="ecl-link" ng-click="ShowPeriod('1985','1990')">1985 - 1990</a>
+	<a class="ecl-link" ng-click="ShowPeriod('1990','1995')">1990 - 1995</a>
+	<a class="ecl-link" ng-click="ShowPeriod('1995','2000')">1995 - 2000</a>
+	<a class="ecl-link" ng-click="ShowPeriod('2000','2005')">2000 - 2005</a>
+	<a class="ecl-link" ng-click="ShowPeriod('2005','2010')">2005 - 2010</a>
+	<a class="ecl-link" ng-click="ShowPeriod('2010','2015')">2010 - 2015</a>
+	<a class="ecl-link" ng-click="ShowPeriod('2015','')">{{'after' | translate}} 1975</a>
+</div>
+--->
+<div class="ecl-container avs-list-results-thumbnails">
+	<p class="ecl-paragraph" ng-bind-html="chapter.description | translateDB"></p>
+	<!-- on affiche en vignette le contenu de medias -->
+	<div class="ecl-row">
+		<vignette-detail  ng-repeat="media in Chapters | orderBy:orderByDate" ng-if="media" media="media" type="media.type"  class="ecl-col-lg-4"></vignette-detail>
+	</div>
+</div>
+

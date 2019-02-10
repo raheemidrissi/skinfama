@@ -1,0 +1,90 @@
+
+<div class="ecl-row">
+    <div class="ecl-col-lg-12"  ng-if="reportagesPlanning.length">
+	<h2 class="ecl-heading ecl-heading--h2">{{'photo.planned_photo_coverage'|translate}}</h2>
+        <ul class="ecl-list--unstyled">
+      <li class="ecl-list-item ecl-list-item--date" ng-repeat="reportage in reportagesPlanning">
+        <a  class="ecl-link ecl-list-item__link">
+          <div class="ecl-u-sr-only">{{'photo.planned_photo_coverage'|translate}}</div>
+          <div class="ecl-list-item__primary">
+          	<badge-date datereportage="reportage.datestart"></badge-date>
+          </div>
+          <div class="ecl-list-item__body">
+            
+            <h3 class="ecl-list-item__title ecl-heading ecl-heading--h3">{{reportage.title|translateDB}}</h3>
+            {{reportage.summary|translateDB}}
+          </div>
+        </a>
+      </li>
+    </ul>
+    <strong>
+                <a class="ecl-u-mt-s ecl-u-f-r ecl-link avs-file ecl-button--caret-right ecl-u-text-uppercase ecl-link--standalone" ui-sref="language.planning">{{'photo.more_coverage' | translate}}</a>
+            </strong>
+    </div>
+</div>
+
+
+
+<div class="avs-listing-three-columns-highlights avs-listing-three-columns-highlights-with-paragraph">
+    
+    <div class="ecl-row">
+        <div class="ecl-col-lg-12">
+            <h2>{{'photo.photo_news'|translate}}</h2>
+            <p class="ecl-paragraph ecl-paragraph--m">{{'photo.photo_news_description'|translate}}</p>
+        </div>
+    </div>
+
+    <liste-vignette medias="photosNews" type="'REPORTAGE'"></liste-vignette>
+
+    <div class="ecl-row">
+        <div class="ecl-col-lg-12">
+            <strong>
+                <a class="ecl-u-mt-s ecl-u-f-r ecl-link avs-file ecl-button--caret-right ecl-u-text-uppercase ecl-link--standalone" ui-sref="language.photonews">{{'photo.more_photo_news' | translate}}</a>
+            </strong>
+        </div>
+    </div>
+
+</div> 
+
+<div class="avs-listing-three-columns-highlights avs-listing-three-columns-highlights-with-paragraph">
+    
+    <div class="ecl-row">
+        <div class="ecl-col-lg-12">
+            <h2>{{'photo.creative_photos'|translate}}</h2>
+            <p class="ecl-paragraph ecl-paragraph--m">{{'photo.creative_photos_description'|translate}}</p>
+        </div>
+    </div>
+
+    <liste-vignette medias="photosIllustration" type="'REPORTAGE'"></liste-vignette>
+
+    <div class="ecl-row">
+        <div class="ecl-col-lg-12">
+            <strong>
+                <a class="ecl-u-mt-s ecl-u-f-r ecl-link avs-file ecl-button--caret-right ecl-u-text-uppercase ecl-link--standalone" ui-sref="language.symbolic">{{'photo.more_creative_photos' | translate}}</a>
+            </strong>
+        </div>
+    </div>
+
+</div> 
+
+<div class="avs-listing-three-columns-highlights avs-listing-three-columns-highlights-with-paragraph">
+    
+    <div class="ecl-row">
+        <div class="ecl-col-lg-12">
+            <h2>{{'photo.whos_who'|translate}}</h2>
+            <p class="ecl-paragraph ecl-paragraph--m">{{'photo.whos_who_description'|translate}}</p>
+        </div>
+    </div>
+
+    <liste-vignette medias="whoswhos" type="'REPORTAGE'"></liste-vignette>
+
+    <div class="ecl-row">
+        <div class="ecl-col-lg-12">
+            <strong>
+                <a class="ecl-u-mt-s ecl-u-f-r ecl-link avs-file ecl-button--caret-right ecl-u-text-uppercase ecl-link--standalone" ui-sref="language.whoswhos"ng-bind-html="photo.more_whos_who | translateDB"></a>
+            </strong>
+        </div>
+    </div>
+
+</div> 
+

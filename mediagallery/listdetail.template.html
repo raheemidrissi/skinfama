@@ -1,0 +1,15 @@
+<li>
+	<div class="row">
+		<div class="col-md-3">
+			<a ui-sref="language.{{type}}({ref:media.ref})"><img ng-src="{{media.thumb}}" alt="{{media.title|translateDB}}" /></a>
+		</div>
+		<div class="col-md-9">
+		    {{media.datestart | date : 'dd/MM/yyyy'}}<br/>
+			<h3>{{media.title|translateDB }}</h3>
+			<h5>{{media.summary|translateDB }}</h5>
+			<i class="fa fa-video-camera"></i> video ({{media.NbRelatedVideo||0 | number}}) 
+			<i class="fa fa-camera"></i> photo({{media.NbRelatedPhoto||0 | number}})
+			<i class="fa fa-microphone"></i> audio({{media.NbRelatedAudio||0 | number}})
+		</div>
+	</div>
+</li>

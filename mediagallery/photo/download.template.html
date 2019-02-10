@@ -1,0 +1,30 @@
+<div>
+	<div ng-if="! isAuthenticated">
+		<a class="ecl-link ecl-link--standalone" href="/api/authenticate"><button class="ecl-button ecl-button--default ecl-button--block ecl-button--file" type="button">for download, you have to log in</button></a>
+	</div>
+	<div ng-repeat="photo in download" ng-if="isAuthenticated">
+		<section class="ecl-file ecl-u-mt-m">
+		    <div class="ecl-file__body">
+		        <div class="ecl-row">
+		            <div class=" ecl-col ecl-col-md-8">
+		                <span class="ecl-icon ecl-icon--file ecl-file__icon"></span>
+		                <div class="ecl-file__metadata">
+		                    <div class="ecl-file__title">{{photo.type | translate}}</div>
+		                    <div class="ecl-file__info">
+		                    	<span ng-if="photo.width || photo.height">
+									(<span ng-if="photo.width">{{photo.width}}</span>
+									<span ng-if="photo.width && photo.height"> x </span>
+									<span ng-if="photo.height">{{photo.height}}</span>)
+								</span>
+		                    </div>
+		                </div>
+		            </div>
+		            <div class="ecl-col-12 ecl-col-md-4">
+		            	<a class="ecl-link ecl-link--standalone" href="{{photo.path}}" download><button class="ecl-button ecl-button--default ecl-button--block ecl-button--file ecl-file__download" type="button">Download</button></a>
+	
+		            </div>
+		        </div>
+		    </div>
+		</section>
+	</div>
+</div>

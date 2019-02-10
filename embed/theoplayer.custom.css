@@ -1,0 +1,876 @@
+.theoplayer-container {
+    background: #000000;
+    width: 100% !important;
+    height: 100% !important;
+    overflow: hidden;
+}
+
+.top-bar, .top-bar .button-bar {
+    display: block;
+}
+
+.AVSVideoPlayer .top-bar {
+    z-index: 14;
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: auto;
+    background-color: rgba(0, 0, 0, 0.25);
+}
+
+.AVSVideoPlayer .button-bar {
+    z-index: 14;
+    float: right;
+    display: none;
+    top: 0;
+    right: 0;
+    width: auto!important;
+    height: auto!important;
+}
+
+.AVSVideoPlayer .button-bar-button {
+    float: right;
+    width: 50px;
+    height: 50px;
+    margin: 0;
+    padding: 0;
+    cursor: pointer;
+}
+
+.AVSVideoPlayer .languagebutton {
+    position: relative;
+    display: block;
+    float: right;
+    width: 210px !important;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    padding: 3px 6px 1px 6px;
+}
+
+.AVSVideoPlayer .channelbuttonBlue {
+    position: relative;
+    display: block;
+    float: right;
+    width: 50px !important;
+    height: 36px;
+    line-height: 30px;
+    text-align: center;
+    padding: 3px 6px 1px 6px;
+    background-color: #4073af;
+}
+.AVSVideoPlayer .channelbuttonGreen {
+    position: relative;
+    display: block;
+    float: right;
+    width: 50px !important;
+    height: 36px;
+    line-height: 30px;
+    text-align: center;
+    padding: 3px 6px 1px 6px;
+    background-color: limegreen;
+}
+
+
+.AVSVideoPlayer .subtitlebutton {
+    position: relative;
+    display: block;
+    float: right;
+    width: auto;
+    margin: 0 5px;
+    /*height: 30px;*/
+    /*line-height: 30px;*/
+    /*text-align: center;*/
+    /*padding: 0;*/
+    /*font-size: 1.8em;*/
+    /*line-height: 1.67;*/
+}
+
+.AVSVideoPlayer .selected {
+    color: #ffffff;
+    background-color: #0065A2!important;
+}
+
+
+.AVSVideoPlayer {
+    font-family: 'ECSquareSansPro', sans-serif;
+    color: #fff;
+    position: relative;
+    background: black;
+    display: block;
+    cursor: default;
+}
+
+.AVSVideoPlayer .preview {
+    z-index: 1;
+    display: block;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+}
+
+.AVSVideoPlayer .info-tab {
+    display: inline-block;
+    color: #74d8f3;
+    margin-bottom: 10px;
+    margin-right: 20px;
+}
+
+.AVSVideoPlayer .info-tab-field {
+    display: inline-block;
+    position: relative;
+    font-size: 12px;
+    width: auto;
+}
+
+.AVSVideoPlayer .info-img {
+    width: 100%;
+    height: auto;
+}
+
+.AVSVideoPlayer .label {
+    font-family: 'ECSquareSansPro', sans-serif;
+    display: inline-block;
+    background: transparent;
+    color: #FFFFFF;
+    /*font-size: 13px;*/
+    font-size: 1.5vw;
+    width: 36%;
+    padding-top: 15px;
+    padding-bottom: 4px;
+
+
+}
+
+.AVSVideoPlayer .dropdown-main {
+    display: inline-block;
+    width: 52%;
+    position: relative;
+}
+
+.AVSVideoPlayer .dropdown-arrow {
+    display: inline-block;
+    position: absolute;
+    width: 20px;
+    right: 3%;
+    height: auto;
+    pointer-events: none;
+    top: 50%;
+    transform: translate(0, -50%);
+    font-size: 14px;
+    width: 17px;
+}
+
+.dropdown {
+    width: 100%; font-size: 12px; height: 26px; padding: 4px;
+}
+
+.AVSVideoPlayer select {
+    display: inline-block;
+    font-family: 'ECSquareSansPro', sans-serif;
+    background: transparent;
+    color: #FFFFFF;
+    width: 150px;
+    border: 1px solid rgba(255, 255, 255, 0.31);
+    border-radius: 0px;
+    padding: 5px;
+    /*font-size: 14px;*/
+    /*height: 30px;*/
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    -ms-appearance: none;
+    -o-appearance: none;
+    appearance: none;
+
+    font-size: 1.5vw;
+    height: auto;
+    width: 100%;
+}
+
+.AVSVideoPlayer option {
+    color: #000000;
+    background: transparent;
+    padding: 5px 5px 5px 10px;
+}
+
+.AVSVideoPlayer .textfield {
+    font-family: 'ECSquareSansPro', sans-serif;
+    display: inline-block;
+    background: transparent;
+    color: #FFFFFF;
+    margin: 0;
+    width: 150px;
+    height: 30px;
+    border: 1px solid rgba(255, 255, 255, 0.31);
+    padding: 5px;
+    font-size: 15px;
+    width: 15%; font-size: 13px; height: 26px; padding: 4px;
+
+    font-size: 1.2vw;
+    height: 1.5vw;
+    height: auto !important;
+}
+
+.AVSVideoPlayer #shareURLField {
+    width: 100%;
+    font-size: 13px;
+    /*height: 26px;*/
+    padding: 4px;
+    font-size: 1.5vw;
+    height: auto;
+    margin-top: 5px;
+}
+
+#embedTagField {
+    font-size: 1.2vw;
+}
+
+.AVSVideoPlayer .textfield-center {
+    text-align: center;
+}
+
+.AVSVideoPlayer .timeseparator {
+    font-family: 'ECSquareSansPro', sans-serif;
+    display: inline-block;
+    color: #FFFFFF;
+    padding: 5px;
+    font-size: 15px;
+    margin: 0;
+    font-size: 13px;
+    padding: 4px;
+}
+
+.AVSVideoPlayer .embed-copybutton {
+    display: inline-block;
+    background-color: transparent;
+    border: 1px solid rgba(255, 255, 255, 0.26);
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-size: 17px;
+    cursor: pointer;
+    text-align: center;
+    pointer-events: all;
+    width: 99.25%; font-size: 15px; padding-top: 4px; padding-bottom: 4px;
+    font-size: 1.5vw;
+    height: auto;
+    margin-top: 15px;
+}
+
+[type="checkbox"]:not(:checked),
+[type="checkbox"]:checked {
+    display: none;
+}
+
+[type="checkbox"]:not(:checked) + label,
+[type="checkbox"]:checked + label {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+}
+
+[type="checkbox"]:not(:checked) + label:before,
+[type="checkbox"]:checked + label:before {
+    content: '';
+    display: inline-block;
+    width: 17px;
+    height: 17px;
+    border: 1px solid rgba(255, 255, 255, 0.31);
+    background: transparent;
+    vertical-align: sub;
+}
+
+/* checked mark aspect */
+
+[type="checkbox"]:not(:checked) + label:after,
+[type="checkbox"]:checked + label:after {
+    content: '✔';
+    position: absolute;
+    display: inline-block;
+    left: 0;
+    width: 17px;
+    height: 17px;
+    font-size: 14px;
+    line-height: 14px;
+    color: #ffffff;
+    text-align: center;
+    transition: all .2s;
+    border: 1px solid transparent;
+    vertical-align: sub;
+}
+
+/* checked mark aspect changes */
+
+[type="checkbox"]:not(:checked) + label:after {
+    opacity: 0;
+    transform: scale(0);
+}
+
+.AVSVideoPlayer select::-ms-expand {
+    display: none;
+}
+.noselect {
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    cursor: default;
+}
+
+.AVSVideoPlayer .socialbutton {
+    display: inline-block;
+    background-color: transparent;
+    margin-right: 5px;
+    margin-bottom: 5px;
+    cursor: pointer;
+    pointer-events: all;
+    width: 5vw;
+    height: auto;
+    font-size: 14px;
+    margin-right: 4px;
+    margin-bottom: 4px;
+    margin-top: 10px;
+}
+
+.AVSVideoPlayer .socialbutton .icon {
+    display: inline-block;
+    width: 100%;
+    height: auto;
+    vertical-align: middle;
+}
+
+[type="checkbox"]:not(:checked), [type="checkbox"]:checked {
+    display: none;
+}
+
+[type="checkbox"]:not(:checked) + label:before, [type="checkbox"]:checked + label:before {
+    content: '';
+    display: inline-block;
+    width: 17px;
+    height: 17px;
+    border: 1px solid rgba(255, 255, 255, 0.31);
+    background: transparent;
+    vertical-align: sub;
+}
+
+.AVSVideoPlayer .textarea {
+    font-family: 'ECSquareSansPro', sans-serif;
+    display: inline-block;
+    background: transparent;
+    color: #FFFFFF;
+    margin: 0;
+    width: 150px;
+    height: 120px;
+    border: 1px solid rgba(255, 255, 255, 0.31);
+    padding: 5px;
+    font-size: 13px;
+    vertical-align: top;
+    resize: none;
+    overflow: hidden;
+    width: 100%; font-size: 11px; height: 106px; padding: 4px;
+}
+
+.AVSVideoPlayer .autoplayBox {
+    font-size: 11px; width: 11px; height: 11px; margin: 2px 2px 2px 3px;
+}
+
+label#shareAutoPlayBox,label#embedAutoPlayBox {
+    font-size: 14px;
+}
+
+@font-face {
+    font-family: 'ECSquareSansPro';
+    /*src: url("fonts/ECSquareSansPro-Regular.eot");*/
+    /* IE9 Compat Modes */
+    src: url("./fonts/ECSquareSansPro-Regular.woff2") format('woff2'),
+    url("./fonts/ECSquareSansPro-Regular.woff") format('woff'),
+    url("./fonts/ECSquareSansPro-Regular.ttf") format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.theo-settings-control-button {
+    display: none !important;
+}
+
+.vjs-paused .vjs-play-control:before {
+    background-image: url("./img/icon_play.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    content: '' !important;
+}
+
+.vjs-has-started.vjs-playing .vjs-play-control:before {
+    background-image: url("./img/icon_pause.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    content: '' !important;
+}
+
+.vjs-play-progress {
+    /*
+      Using a data URI to create the white diagonal lines with a transparent
+        background. Surprisingly works in IE8.
+        Created using http://www.patternify.com
+      Changing the first color value will change the bar color.
+      Also using a paralax effect to make the lines move backwards.
+        The -50% left position makes that happen.
+    */
+    background: #0066cc !important;
+}
+
+.vjs-fullscreen-control:before {
+    font-family: FontAwesome;
+    content: "\f0b2" !important;
+}
+
+.vjs-time-control {
+    font-family: 'ECSquareSansPro', sans-serif;
+}
+
+.vjs-control.vjs-mute-control {
+    order: 3;
+}
+
+.vjs-mute-control.vjs-vol-0:before {
+    background-image: url("./img/icon_soundoff.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    content: '' !important;
+}
+
+.vjs-mute-control:before {
+    font-family: FontAwesome;
+    content: "\f012" !important;
+}
+
+.theoplayer-skin .theo-text-track-control-button {
+    display: none !important;
+}
+
+.vjs-control.vjs-volume-control {
+    order: 2;
+}
+
+.video-js .vjs-control-bar {
+    display: flex;
+    visibility: visible;
+    opacity: 1;
+    background-color: rgba(48, 48, 48, 0.95) !important;
+}
+
+.theoplayer-skin .theo-control-bar-shadow {
+    display: none;
+}
+
+.theoplayer-skin:not(.theo-seekbar-inside-controls) .vjs-progress-control {
+    left: 0;
+    right: 0;
+}
+
+.theoplayer-skin .vjs-progress-control .vjs-progress-holder {
+    height: 0.6em;
+}
+
+.theoplayer-skin .vjs-progress-control .vjs-progress-holder:hover {
+    height: 0.6em;
+}
+
+.theoplayer-skin .vjs-big-play-button, .theoplayer-skin:hover .vjs-big-play-button {
+    background: url("./img/icon_playarea.png");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    width: 75px;
+    height: 75px;
+}
+
+.theoplayer-skin:hover .vjs-big-play-button {
+    box-shadow: 0 0 2em rgba(255, 255, 255, 0.6) !important;
+}
+
+.video-js .theoplayer-poster {
+    filter: brightness(60%);
+    transition: filter 0.5s ease;
+    background-size: cover !important;
+}
+
+.video-js .theoplayer-poster:hover {
+    filter: brightness(100%);
+}
+
+.vjs-big-play-button .theo-big-play-button-svg-container {
+    display: none;
+}
+
+.theoplayer-skin:hover .vjs-big-play-button {
+    box-shadow: unset !important;
+}
+
+.theoplayer-skin:hover .vjs-big-play-button:after, .theoplayer-skin .vjs-big-play-button:focus:after {
+    opacity: 0 !important;
+}
+
+.theoplayer-skin .vjs-big-play-button {
+    color: #fff !important;
+}
+
+.top-bar {
+    display: none !important;
+}
+
+.vjs-paused .top-bar {
+    display: block !important;
+}
+.vjs-user-active .top-bar {
+    display: block !important;
+}
+
+.theoplayer-skin:hover .vjs-big-play-button {
+    box-shadow: none !important;
+}
+
+.tpanel {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    /*padding: 30px;*/
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 0;
+    padding-bottom: 0;
+    background-color: rgba(0, 86, 138, 0.96);
+    z-index: 14;
+    margin: 0 auto;
+    bottom: 36px;
+    /*top: 50%;*/
+}
+
+.tpanel .tpanel-content {
+    width: 100%;
+}
+
+.hidden {
+    display: none !important;
+}
+
+.theo-primary-color, .vjs-selected {
+    color: #00a2ff !important;
+}
+
+.languagebutton {
+    font-family: 'ECSquareSansPro', sans-serif;
+    height: 100% !important;
+}
+
+.languagebutton:hover {
+    background-color: rgba(255, 255, 255, 0.1);
+    cursor: pointer;
+    height: 100% !important;
+}
+
+.languagebutton .menu {
+    bottom: 35px;
+    position: absolute;
+    text-align: center;
+    width: 100%;
+    padding: 5px;
+    right: 0px;
+    margin: 0;
+    background-color: rgba(48, 48, 48, 0.95);
+    max-height: 200px;
+    overflow-y: auto;
+	z-index:5;
+}
+
+.languagebutton .menu div:hover {
+    color: #ffffff;
+    background-color: #0065A2!important;
+}
+
+/* width */
+.languagebutton .menu::-webkit-scrollbar {
+    width: 10px;
+}
+
+/* Track */
+.languagebutton .menu::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+
+/* Handle */
+.languagebutton .menu::-webkit-scrollbar-thumb {
+    background: #888;
+}
+
+/* Handle on hover */
+.languagebutton .menu::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}
+
+.languagebutton .menu li.selected {
+    background-color: #0065A2!important;
+}
+
+
+.channelbutton {
+    font-family: 'ECSquareSansPro', sans-serif;
+    height: 100% !important;
+}
+
+.channelbutton:hover {
+    background-color: rgba(255, 255, 255, 0.1);
+    cursor: pointer;
+    height: 100% !important;
+}
+
+.channelbutton .menu {
+    top: -40px;
+    position: absolute;
+    text-align: center;
+    width: 100%;
+    padding: 5px;
+    right: 0px;
+    margin: 0;
+    background-color: rgba(48, 48, 48, 0.95);
+    max-height: 200px;
+    overflow-y: auto;
+	z-index:5;
+}
+
+.channelbutton .menu div:hover {
+    color: #ffffff;
+    background-color: #0065A2!important;
+}
+
+/* width */
+.channelbutton .menu::-webkit-scrollbar {
+    width: 10px;
+}
+
+/* Track */
+.channelbutton .menu::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+
+/* Handle */
+.channelbutton .menu::-webkit-scrollbar-thumb {
+    background: #888;
+}
+
+/* Handle on hover */
+.channelbutton .menu::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}
+
+.channelbutton .menu li.selected {
+    background-color: #0065A2!important;
+}
+
+
+
+
+
+.subtitlebutton {
+    font-family: 'ECSquareSansPro', sans-serif;
+    height: 100% !important;
+}
+.subtitlebutton:before {
+    font-family: FontAwesome;
+    content: "\f20a" !important;
+}
+
+.subtitlebutton:hover {
+    /*background-color: rgba(255, 255, 255, 0.1);*/
+    cursor: pointer;
+    /*height: 100% !important;*/
+}
+
+.subtitlebutton .menu {
+    top: -40px;
+    position: absolute;
+    text-align: center;
+    padding: 5px;
+    right: 0px;
+    margin: 0;
+    background-color: rgba(48, 48, 48, 0.95);
+    max-height: 200px;
+    overflow-y: auto;
+    width: 200px;
+    margin-right: -170px;
+    font-size: 1.2em;
+}
+
+.subtitlebutton .menu div:hover {
+    color: #ffffff;
+    background-color: #0065A2!important;
+}
+
+/* width */
+.subtitlebutton .menu::-webkit-scrollbar {
+    width: 10px;
+}
+
+/* Track */
+.subtitlebutton .menu::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+
+/* Handle */
+.subtitlebutton .menu::-webkit-scrollbar-thumb {
+    background: #888;
+}
+
+/* Handle on hover */
+.subtitlebutton .menu::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}
+
+.subtitlebutton .menu li.selected {
+    background-color: #0065A2!important;
+}
+
+.shotlistbutton {
+    font-family: 'ECSquareSansPro', sans-serif;
+    height: 100% !important;
+}
+.shotlistbutton:before {
+    font-family: FontAwesome;
+    content: "\f036" !important;
+}
+
+.shotlistbutton:hover {
+    /*background-color: rgba(255, 255, 255, 0.1);*/
+    cursor: pointer;
+}
+
+.panel-closebutton {
+    background-image: url('./img/icon_close.png');
+    background-size: contain;
+    position: absolute;
+    top: 20px !important;
+    right: 20px;
+    width: 20px;
+    height: 20px;
+    z-index: 10;
+    pointer-events: all;
+    cursor: pointer;
+}
+
+.AVSVideoPlayer .preview img {
+    display: inherit;
+    filter: none;
+    -webkit-filter: none;
+}
+
+.Aligner {
+    padding-top: 20px;
+    top: 0px;
+}
+
+.Aligner-item--fixed {
+    -webkit-box-flex: 0;
+    -webkit-flex: none;
+    -ms-flex: none;
+    flex: none;
+    max-width: 50%;
+}
+
+.panel-left {
+    width: 45%; position: relative; display: block; left: 0; height: auto; float: left;
+}
+
+.panel-right {
+    width: 50%; position: relative; display: block; right: 0; height: auto; float: right;
+}
+
+.button-bar-button.responsive {
+    text-align: center;
+}
+.button-bar-button.responsive .fa {
+    margin-top: 25%;
+    margin-bottom: 25%;
+}
+
+.AVSVideoPlayer .info-title {
+    font-size: 1.8vw;
+    line-height: 1.8vw;
+    font-weight: bold;
+}
+
+@media all and (min-width: 960px) {
+    .AVSVideoPlayer .button-bar-button.responsive {
+        height: auto !important;
+        font-size: 29px !important;
+    }
+}
+
+@media all and (max-width: 960px) {
+    .AVSVideoPlayer .button-bar-button.responsive {
+        height: auto !important;
+        font-size: 3vw !important;
+    }
+}
+
+
+
+.info .subtitle {
+    font-size: 1.3vw;
+    margin-top: 0.8vh;
+    margin-bottom: 1.7vh;
+}
+
+.info .desc {
+    font-size: 1.5vw;
+    margin-top: 0.8vh;
+    margin-bottom: 2vh;
+}
+
+.AVSVideoPlayer .info-tab-field {
+    font-size: .9vw;
+    margin-top: 10px;
+}
+
+.tpanel .heading {
+    font-size: 28px;
+    font-family: 'ECSquareSansPro', sans-serif;
+    margin-bottom: 20px;
+    text-transform: capitalize;
+}
+
+
+.theoplayer-container[data-mode="LIVE"] .start-time, .theoplayer-container[data-mode="LIVE"] .end-time {
+    display: none;
+}
+
+.theoplayer-container[data-panel="showing"] .vjs-control-bar {
+    opacity: 1 !important;
+}
+
+.shotlist-container {
+    position: absolute;
+    bottom: 48px;
+    padding: 5px 10px;
+    width: 100%;
+    /*min-height: 140px;*/
+    height: auto;
+    font-size: 15px;
+    background: rgba(0,0,0,0.5);
+}
+.shotlist-container p {
+    margin: 0;
+    padding: 0;
+}
+
+.vjs-fullscreen .tpanel {
+bottom: 0;
+}
+
+.previoustrack, .nexttrack{
+    font-size: 18px;
+    top: 10px;
+}

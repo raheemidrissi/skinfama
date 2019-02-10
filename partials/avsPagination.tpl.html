@@ -1,0 +1,13 @@
+<ul class="ecl-pager" ng-if="1 < pages.length || !autoHide">
+    <li class="ecl-pager__item ecl-pager__item--previous" ng-if="boundaryLinks" ng-class="{ disabled : pagination.current == 1 }">
+        <a class="ecl-pager__link" title="Go to previous page"  ng-click="setCurrent(pagination.current - 1)">‹ {{'label.previous'|translate}}</a>
+    </li>
+    <li class="ecl-pager__item" aria-current="page" ng-repeat="pageNumber in pages track by tracker(pageNumber, $index)" ng-class="{ 'ecl-pager__item--first' : pagination.current == 1, 'ecl-pager__item--current' : pagination.current == pageNumber,'ecl-pager__item--last' : pagination.current == pagination.last, 'ecl-pager__item--ellipsis' : pageNumber == '...' }">
+        <a class="ecl-pager__link" title="Go to page {{ pageNumber }}" ng-click="setCurrent(pageNumber)">
+	        <span class="ecl-pager__item-text">{{'label.page'|translate}}</span> {{ pageNumber }}
+        </a>
+    </li>
+    <li class="ecl-pager__item ecl-pager__item--next" ng-if="directionLinks" ng-class="{ disabled : pagination.current == pagination.last }">
+        <a class="ecl-pager__link" title="Go to next page" ng-click="setCurrent(pagination.current + 1)">{{'label.next'| translate}} ›</a>
+    </li>
+</ul>

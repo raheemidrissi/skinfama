@@ -1,0 +1,53 @@
+
+
+    <div class="ecl-message avs-message avs-message-video">
+        
+        <div class="avs-file avs-file--video avs-message--thumbnail"        
+            ng-if="seq.thumb && showthumb">
+            <a ui-sref="language.video({ref:seq.ref})">
+                <div class="avs-video-area ecl-u-ratio-16-9">
+                    <picture class="avs-ratio-content">
+                        <source media="(min-width: 480px)" srcset="{{seq.thumb}}">
+                        <img ng-src="{{seq.thumbmini}}">
+                    </picture>
+                    <div class="avs-video-duration">{{seq.duration}} </div>
+                </div>
+            </a>
+        </div>      
+        <div class="avs-message--main-area" ng-class="{'bothview':!showthumb, 'simpleview':showthumb}">
+            <span class="ecl-u-sr-only">Links related to this program</span>
+            <a class="ecl-link--standalone" ng-show="seq.thumb" ui-sref="language.video({ref:seq.ref})"><h4 class="ecl-link ecl-link--standalone ecl-heading ecl-heading--h4"> <span class="ecl-context-nav__label" ng-bind-html="seq.hour | fmHoraire" ng-if="seq.hour"></span> <span ng-bind-html="seq.title | translateDB"></span> </h4></a>
+            <h4 ng-show="!seq.thumb" class="ecl-heading ecl-heading--h4" ng-bind-html="seq.title | translateDB"></h4>
+            <div class="ecl-context-nav" ng-class="{'hide': !showthumb}">
+                <ul class="ecl-context-nav__list">
+                    <li class="ecl-u-text-uppercase ecl-context-nav__item" ng-if="seq.photo">
+                        <a class="ecl-link ecl-link--standalone"  ui-sref="language.reportage({ref:seq.photo})">{{'Photo'|translate}}</a>
+                    </li>
+                    <li class="ecl-u-text-uppercase ecl-context-nav__item" ng-show="seq.hasShots==1">
+                        <a class="ecl-link ecl-link--standalone" ui-sref="language.shotlist({ref:seq.ref})">{{'Shotlist'|translate}}</a>
+                    </li>
+                    <li class="ecl-u-text-uppercase ecl-context-nav__item" 
+                        ng-if="seq.institution.EN == 'European Parliament' && prog.types.match('news')">
+                        <a class="ecl-link ecl-link--standalone" href="https://multimedia.europarl.europa.eu/en/AV_{{seq.ref.replace('-','')}}-V_v">VIDEO & SHOTLIST</a>
+                    </li>
+                    <li class="ecl-u-text-uppercase ecl-context-nav__item" ng-repeat="l in seq.ip">
+                        <a class="ecl-link ecl-link--standalone" href="http://backupline.novacomm-europa.eu/avservices/03_2_ebs_schedule.php#sample-link-url" ng-bind-html="l | fmLink:'RAPID'"></a>
+                    </li>
+                    <li class="ecl-u-text-uppercase ecl-context-nav__item" ng-repeat="link in seq.url">
+                        <a class="ecl-link ecl-link--standalone" href="{{link.url}}" title="{{link.title}}">{{link.display}}</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="avs-message--meta-tags ecl-paragraph ecl-paragraph--xs" ng-if="showthumb">
+                
+                <span class="fa fa-tag"></span><span class="labeled-icon--label">{{seq.ref}}</span>
+                
+                <span class="fa fa-map-marker"></span>
+                <span class="labeled-icon--label" ng-if="seq.institution"> &nbsp; &nbsp; {{seq.institution.value|translateDB}}</span>
+                <span ng-if="seq.location">{{seq.location.value | translateDB}}</span>
+
+                <span ng-if="seq.porteparole" class="labeled-icon--label"> <br>{{seq.porteparole.preferedterm}}<span ng-show="seq.porteparole.role" class="labeled-icon--label">, {{seq.porteparole.role | translate}}</span><span ng-if="seq.otherpp" class="labeled-icon--label"> ({{seq.otherpp}})</span></span>
+
+            </div>
+        </div>
+    </div>

@@ -1,0 +1,17 @@
+    <div class="row">
+        <div class="col-xs-{{12/videos.length}}" ng-repeat="video in videos">
+            <a ui-sref="language.video({ref:video.ref})">
+            	<div align="center">
+                	<span class="play"></span>
+                    <span class="videoDuration"></span>
+	                <img style="margin-bottom:5px" width="300" height="180" border="0" ng-src="{{video.video[0].IMAGE}}" alt="" />
+                </div>
+            </a>
+            <div class="inner">{{video.title|translateDB}}</div>
+        	<div>
+                    <span class="small quiet">{{'label.reference_number'|translateDB}}:</span> <span class="small" style="color:#3399cc">{{video.ref}}</span>
+                    |
+                    <span class="small quiet">{{'label.event_date'|translateDB}}:</span> <span class="small" style="color:#3399cc">{{video.date}}</span>
+               	</div>
+        </div>
+    </div>

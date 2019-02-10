@@ -1,0 +1,24 @@
+
+<li class="ecl-list-item">
+    <div class="ecl-row ecl-u-mv-xs">
+        <div class="ecl-col-md-8">
+            <div class="ecl-u-fs-s ecl-u-color-grey-75" ng-if="media.start_date">{{media.start_date}}</div>
+            <h4 class="ecl-heading ecl-heading--h4 ecl-u-mt-xxs ecl-u-mb-xxxs">
+                <a class="ecl-link ecl-link--standalone"  ui-sref="language.{{type}}({ref:media.ref})" ng-bind-html="media.title | translateDB "></a>
+            </h4>
+            <p class="ecl-paragraph ecl-u-mb-s ecl-u-mt-xxxs ecl-paragraph--shorttext" ng-bind-html="media.description | translateDB | fmLimitTo:150:'...'"></p>
+        </div>
+        <section class="ecl-file avs-file ecl-file--video ecl-u-mb-s ecl-u-f-r ecl-col-md-4">
+            <a class="ecl-link ecl-link--standalone" ui-sref="language.{{type}}({ref:media.ref})">
+                <div class="ecl-u-ratio-16-9" ng-if="media.thumb">
+                    <picture class="avs-ratio-content">
+                        <source media="(min-width: 480px)" ng-srcset="{{media.thumb}}">
+                        <source media="(max-width: 479px)" ng-srcset="{{media.thumb}}">
+                        <img ng-src="{{media.thumb}}" alt="{{media.title|translateDB}}">
+                    </picture>
+                </div>
+            </a>
+        </section>
+    </div>
+
+</li>

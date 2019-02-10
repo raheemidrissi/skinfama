@@ -1,0 +1,65 @@
+<div class="avs-three-featured">
+    <div class="ecl-row">
+        <div class="ecl-col-12">
+            <h1>{{'menu.headline_news'| translate}}</h1>
+            <p class="ecl-paragraph ecl-paragraph--m">{{'home.headline_news'|translate}}</p>
+            
+      
+        </div>
+    </div>
+    <div class="ecl-row">
+        <div class="ecl-col-lg-8">
+            <section ng-repeat="focus in featured" ng-if="$first" class="ecl-file avs-file--video ecl-file--video avs-extended-video-caption-area ecl-u-bg-primary ecl-u-md-mb-s">
+                <a ui-sref="language.featured({ref:focus.ref})">
+                    <div class="ecl-u-ratio-16-9 ecl-u-ratio">
+                        <picture class="avs-ratio-content">
+                            <source media="(min-width: 480px)" ng-srcset="{{focus.primarymedia.thumb}}">
+                            <source media="(max-width: 479px)" ng-srcset="{{focus.primarymedia.thumb}}">
+                            <img ng-src="{{focus.primarymedia.thumb}}" alt="This is a test image">
+                        </picture>
+                        <div class="ecl-file__caption ecl-u-bg-primary ecl-u-pv-xxs">
+                            <p class="ecl-u-color-white ecl-u-mv-none ecl-paragraph ecl-paragraph--l" ng-bind-html="focus.title | translateDB"></p>
+                        </div>
+                    </div>
+                </a>
+            </section>
+        </div>
+        <div class="ecl-col-lg-4 ecl-u-d-flex ecl-u-align-content-stretch ecl-u-flex-wrap">
+            <section ng-repeat="focus in featured" ng-if="$middle" class="ecl-file avs-file--video ecl-file--video ecl-u-mb-xs">
+                <a  ui-sref="language.featured({ref:focus.ref})">
+                    <div class="ecl-u-ratio-16-9 ecl-u-ratio">
+                        <picture class="avs-ratio-content">
+                            <source media="(min-width: 480px)" ng-srcset="{{focus.primarymedia.thumb}}">
+                            <source media="(max-width: 479px)" ng-srcset="{{focus.primarymedia.thumb}}">
+                            <img ng-src="{{focus.primarymedia.thumb}}" alt="This is a test image">
+                        </picture>
+                        <div class="ecl-file__caption ecl-u-bg-primary ecl-u-pv-xxs">
+                            <p class="ecl-u-color-white ecl-u-mv-none ecl-paragraph ecl-paragraph--s">{{focus.title|translateDB | htmlToPlaintext | fmLimitTo:65:'...'}}</p>
+                        </div>
+                    </div>
+                </a>
+            </section>
+            <section ng-repeat="focus in featured" ng-if="$last" class="ecl-file avs-file--video ecl-file--video ecl-u-align-self-end">
+                <a ui-sref="language.featured({ref:focus.ref})">
+                    <div class="ecl-u-ratio-16-9 ecl-u-ratio">
+                        <picture class="avs-ratio-content">
+                            <source media="(min-width: 480px)" ng-srcset="{{focus.primarymedia.thumb}}">
+                            <source media="(max-width: 479px)" ng-srcset="{{focus.primarymedia.thumb}}">
+                            <img ng-src="{{focus.primarymedia.thumb}}" alt="This is a test image">
+                        </picture>
+                        <div class="ecl-file__caption ecl-u-bg-primary ecl-u-pv-xxs">
+                            <p class="ecl-u-color-white ecl-u-mv-none ecl-paragraph ecl-paragraph--s">{{focus.title|translateDB | htmlToPlaintext | fmLimitTo:65:'...'}}</p>
+                        </div>
+                    </div>
+                </a>
+            </section>
+        </div>
+    </div>
+    <div class="ecl-row" ng-show="more">
+        <div class="ecl-col-12">
+            <strong>
+                <a ui-sref="language.featuredall" class="ecl-u-mt-s ecl-u-f-r ecl-link ecl-button--caret-right ecl-u-text-uppercase ecl-link--standalone">{{ 'headlines.more' | translate}}</a>
+            </strong>
+        </div>
+    </div>
+</div> 

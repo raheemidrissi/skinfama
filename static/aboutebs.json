@@ -1,0 +1,389 @@
+{
+ 	"ref": "",
+ 	"titles_json": {
+ 		"FR": "",
+ 		"EN": "Technical information"
+ 	},
+ 	"media_json": {
+ 		"MED": {
+ 			"PATH": ""
+ 		},
+ 		"LOW": {
+ 			"PATH": ""
+ 		},
+ 		"HIGH": {
+ 			"PATH": ""
+ 		}
+ 	},
+ 	"description_json": {
+ 		"FR": "",
+ 		"EN": ""
+ 	},
+ 	"chapters_json": [{
+ 		"titles_json": {
+ 			"FR": "",
+ 			"EN": ""
+ 		},
+ 		"media": [{
+ 				"ref": "M-000000",
+ 				"titles_json": {
+ 					"FR": "",
+ 					"EN": "What is Europe by Satellite?"
+ 				},
+ 				"description_json": {
+ 					"FR": "",
+ 					"EN": ""
+ 				},
+ 				"media_json": {
+ 					"MED": {
+ 						"PATH": ""
+ 					},
+ 					"LOW": {
+ 						"PATH": ""
+ 					},
+ 					"HIGH": {
+ 						"PATH": ""
+ 					}
+ 				},
+ 				"type": "MEDIAGROUP",
+ 				"chapters_json": [{
+ 					"titles_json": {
+ 						"EN": "",
+ 						"FR": ""
+ 					},
+ 					"description_json": {
+ 						"EN": "EbS, the European Union's TV information service, provides EU-related audiovisual material via satellite to media professionals. <br><br>The programming consists of a mix of live events, news items, stockshots on EU policies and issues.",
+ 						"FR": ""
+ 					},
+ 					"media_json": {
+ 						"MED": {
+ 							"PATH": ""
+ 						},
+ 						"LOW": {
+ 							"PATH": ""
+ 						},
+ 						"HIGH": {
+ 							"PATH": ""
+ 						}
+ 					},
+ 					"media": []
+ 				}]
+ 			},
+ 			{
+ 				"ref": "M-000001",
+ 				"titles_json": {
+ 					"FR": "",
+ 					"EN": "EbS offers"
+ 				},
+ 				"description_json": {
+ 					"FR": "",
+ 					"EN": ""
+ 				},
+ 				"media_json": {
+ 					"MED": {
+ 						"PATH": ""
+ 					},
+ 					"LOW": {
+ 						"PATH": ""
+ 					},
+ 					"HIGH": {
+ 						"PATH": ""
+ 					}
+ 				},
+ 				"type": "MEDIAGROUP",
+ 				"chapters_json": [{
+ 					"titles_json": {
+ 						"EN": "",
+ 						"FR": ""
+ 					},
+ 					"description_json": {
+ 						"EN": "<ul><li>institutional content from the European Commission, the European Parliament, the Council of Ministers, the European Central Bank and other institutions</li><li>live coverage of press conferences and briefings from the institutions, EP plenary sessions, European Councils </li><li>stockshots, info clips and clips produced by the audiovisual services and other EU institutions</li><li>online streaming of live and on demand EbS items up to 7 days following the original transmission</li><li>online broadcast quality video and audio files (MPEG4 and MP3 respectively) available for download directly from the website</li></ul>",
+ 						"FR": ""
+ 					},
+ 					"media_json": {
+ 						"MED": {
+ 							"PATH": ""
+ 						},
+ 						"LOW": {
+ 							"PATH": ""
+ 						},
+ 						"HIGH": {
+ 							"PATH": ""
+ 						}
+ 					},
+ 					"media": []
+ 				}]
+ 			},
+ 			{
+ 				"ref": "M-000002",
+ 				"titles_json": {
+ 					"FR": "",
+ 					"EN": "EbS on the satellite"
+ 				},
+ 				"description_json": {
+ 					"FR": "",
+ 					"EN": ""
+ 				},
+ 				"media_json": {
+ 					"MED": {
+ 						"PATH": ""
+ 					},
+ 					"LOW": {
+ 						"PATH": ""
+ 					},
+ 					"HIGH": {
+ 						"PATH": ""
+ 					}
+ 				},
+ 				"type": "MEDIAGROUP",
+ 				"chapters_json": [{
+ 						"titles_json": {
+ 							"EN": "Satellite reception",
+ 							"FR": ""
+ 						},
+ 						"description_json": {
+ 							"EN": "EbS is transmitted using a non-encrypted signal which can be received using readily available equipment. It can be seen in Europe, North Africa and the Middle East. <br><br> Transponder parameters:<br><strong>Eutelsat 9°E <br>Frequency 11900 (horizontally polarised)<br>DVB-S2 (modulation 8PSK)<br>Symbol Rate 27.500 <br>FEC 2/3",
+ 							"FR": ""
+ 						},
+ 						"media_json": {
+ 							"MED": {
+ 								"PATH": ""
+ 							},
+ 							"LOW": {
+ 								"PATH": ""
+ 							},
+ 							"HIGH": {
+ 								"PATH": ""
+ 							}
+ 						},
+ 						"media": []
+ 					},
+ 					{
+ 						"titles_json": {
+ 							"EN": "Satellite footprint for EbS",
+ 							"FR": ""
+ 						},
+ 						"description_json": {
+ 							"EN": "<img src=\"http://ec.europa.eu/avservices/images/eutelsat.png\" width=\"670\"><br><table><tr><th>EbS (service 233)</th><th>EbS+ (service 433)</th></tr><tr><td><table><tr><th></th><th>PID</th><th>Codec</th></tr><tr><td>(Video PCR)</td><td>200</td><td>H.264</td></tr><tr><td>Original</td><td>201</td><td>AAC-HE mono</td></tr><tr><td>English</td><td>202</td><td>AAC-HE mono</td></tr><tr><td>French</td><td>203</td><td>AAC-HE mono</td></tr><tr><td>German</td><td>204</td><td>AAC-HE mono</td></tr><tr><td>Italian</td><td>205</td><td>AAC-HE mono</td></tr><tr><td>Spanish</td><td>206</td><td>AAC-HE mono</td></tr><tr><td>Greek</td><td>207</td><td>AAC-HE mono</td></tr><tr><td>Portuguese</td><td>208</td><td>AAC-HE mono</td></tr><tr><td>Dutch</td><td>209</td><td>AAC-HE mono</td></tr><tr><td>Danish</td><td>210</td><td>AAC-HE mono</td></tr><tr><td>Finnish</td><td>211</td><td>AAC-HE mono</td></tr><tr><td>Swedish</td><td>212</td><td>AAC-HE mono</td></tr><tr><td>Czech</td><td>213</td><td>AAC-HE mono</td></tr><tr><td>Estonian</td><td>214</td><td>AAC-HE mono</td></tr><tr><td>Latvian</td><td>215</td><td>AAC-HE mono</td></tr><tr><td>Lithuanian</td><td>216</td><td>AAC-HE mono</td></tr><tr><td>Hungarian</td><td>217</td><td>AAC-HE mono</td></tr><tr><td>Maltese</td><td>218</td><td>AAC-HE mono</td></tr><tr><td>Polish</td><td>219</td><td>AAC-HE mono</td></tr><tr><td>Slovakian</td><td>220</td><td>AAC-HE mono</td></tr><tr><td>Slovenian</td><td>221</td><td>AAC-HE mono</td></tr><tr><td>Bulgarian</td><td>222</td><td>AAC-HE mono</td></tr><tr><td>Romanian</td><td>223</td><td>AAC-HE mono</td></tr><tr><td>Irish</td><td>224</td><td>AAC-HE mono</td></tr><tr><td>Croatian</td><td>225</td><td>AAC-HE mono</td></tr></table></td><td><table><tr><th></th><th>PID</th><th>Codec</th></tr><tr><td>(Video PCR)</td><td>400</td><td>H.264</td></tr><tr><td>Original</td><td>401</td><td>AAC-HE mono</td></tr><tr><td>English</td><td>402</td><td>AAC-HE mono</td></tr><tr><td>French</td><td>403</td><td>AAC-HE mono</td></tr><tr><td>German</td><td>404</td><td>AAC-HE mono</td></tr><tr><td>Italian</td><td>405</td><td>AAC-HE mono</td></tr><tr><td>Spanish</td><td>406</td><td>AAC-HE mono</td></tr><tr><td>Greek</td><td>407</td><td>AAC-HE mono</td></tr><tr><td>Portuguese</td><td>408</td><td>AAC-HE mono</td></tr><tr><td>Dutch</td><td>409</td><td>AAC-HE mono</td></tr><tr><td>Danish</td><td>410</td><td>AAC-HE mono</td></tr><tr><td>Finnish</td><td>411</td><td>AAC-HE mono</td></tr><tr><td>Swedish</td><td>412</td><td>AAC-HE mono</td></tr><tr><td>Czech</td><td>413</td><td>AAC-HE mono</td></tr><tr><td>Estonian</td><td>414</td><td>AAC-HE mono</td></tr><tr><td>Latvian</td><td>415</td><td>AAC-HE mono</td></tr><tr><td>Lithuanian</td><td>416</td><td>AAC-HE mono</td></tr><tr><td>Hungarian</td><td>417</td><td>AAC-HE mono</td></tr><tr><td>Maltese</td><td>418</td><td>AAC-HE mono</td></tr><tr><td>Polish</td><td>419</td><td>AAC-HE mono</td></tr><tr><td>Slovakian</td><td>420</td><td>AAC-HE mono</td></tr><tr><td>Slovenian</td><td>421</td><td>AAC-HE mono</td></tr><tr><td>Bulgarian</td><td>422</td><td>AAC-HE mono</td></tr><tr><td>Romanian</td><td>223</td><td>AAC-HE mono</td></tr><tr><td>Irish</td><td>424</td><td>AAC-HE mono</td></tr><tr><td>Croatian</td><td>425</td><td>AAC-HE mono</td></tr></table></td></tr></table>",
+ 							"FR": ""
+ 						},
+ 						"media_json": {
+ 							"MED": {
+ 								"PATH": ""
+ 							},
+ 							"LOW": {
+ 								"PATH": ""
+ 							},
+ 							"HIGH": {
+ 								"PATH": ""
+ 							}
+ 						},
+ 						"media": []
+ 					}
+ 				]
+ 			},
+ 			{
+ 				"ref": "M-000003",
+ 				"titles_json": {
+ 					"FR": "",
+ 					"EN": "EbS on the Internet"
+ 				},
+ 				"description_json": {
+ 					"FR": "",
+ 					"EN": ""
+ 				},
+ 				"media_json": {
+ 					"MED": {
+ 						"PATH": ""
+ 					},
+ 					"LOW": {
+ 						"PATH": ""
+ 					},
+ 					"HIGH": {
+ 						"PATH": ""
+ 					}
+ 				},
+ 				"type": "MEDIAGROUP",
+ 				"chapters_json": [{
+ 						"titles_json": {
+ 							"EN": "",
+ 							"FR": ""
+ 						},
+ 						"description_json": {
+ 							"EN": "This site allows you to follow EbS programmes live or on demand for up to 7 days following the original transmission in all of the languages available at the time of the broadcast. <br>The schedule provides continually updated information and covers a 3 week period (previous, current and following weeks). <br>The details provided include the time and title of the event as well as the availability of interpretation into other languages. <br>Where appropriate there will also be a shotlist, press releases, relevant internet links and photographic coverage.",
+ 							"FR": ""
+ 						},
+ 						"media_json": {
+ 							"MED": {
+ 								"PATH": ""
+ 							},
+ 							"LOW": {
+ 								"PATH": ""
+ 							},
+ 							"HIGH": {
+ 								"PATH": ""
+ 							}
+ 						},
+ 						"media": []
+ 					},
+ 					{
+ 						"titles_json": {
+ 							"EN": "To follow EbS on the internet",
+ 							"FR": ""
+ 						},
+ 						"description_json": {
+ 							"EN": "<ul><li>click on the EbS or EbS+ schedule </li><li>for live transmission, click on the EbS or EbS+ live button </li><li>for material transmitted in the previous 7 days, click on the picture related to the relevant item </li><li>all times are in Central European Time</li></ul>",
+ 							"FR": ""
+ 						},
+ 						"media_json": {
+ 							"MED": {
+ 								"PATH": ""
+ 							},
+ 							"LOW": {
+ 								"PATH": ""
+ 							},
+ 							"HIGH": {
+ 								"PATH": ""
+ 							}
+ 						},
+ 						"media": []
+ 					},
+ 					{
+ 						"titles_json": {
+ 							"EN": "Requirements to follow EbS live or on demand",
+ 							"FR": ""
+ 						},
+ 						"description_json": {
+ 							"EN": "This site is optimized with the following software<ul><li>Explorer 9+ / Firefox 39+ / Safari 6+ / Chrome 40+ </li><li>this site uses JavaScript and cookies </li></ul>To ensure smooth navigation throughout our website, please ensure you have at least the specified versions of these software packages on your PC. <br><br>If you connect to the internet through a firewall or proxy server, you may not be able to view our online transmissions.",
+ 							"FR": ""
+ 						},
+ 						"media_json": {
+ 							"MED": {
+ 								"PATH": ""
+ 							},
+ 							"LOW": {
+ 								"PATH": ""
+ 							},
+ 							"HIGH": {
+ 								"PATH": ""
+ 							}
+ 						},
+ 						"media": []
+ 					},
+ 					{
+ 						"titles_json": {
+ 							"EN": "Corporate video player",
+ 							"FR": ""
+ 						},
+ 						"description_json": {
+ 							"EN": "Please check our online tutorial to get the most of our video player:<br><br><strong><h1>The Corporate Player:</h1> <h3>Tutorial</h3></strong>Here is a short video presentation of the full functions of the player available to you. <br><br>Lower down the page, you can select the chapter explaining each of these functions.<br>Enjoy watching and using this player!<br><br><strong><h3>Share Videos</h3><br></strong><video width=\"340\" height=\"191\" poster=\"http://defiris.ec.streamcloud.be/findmedia/17/095757/THUMB_I095757INT1W_02.jpg\" controls><source src=\"//ec.europa.eu/avservices/video/player/demo/Share.mp4\" type=\"video/mp4\"></video>All the audiovisual content of the Portal can be shared through the most popular social media platforms. To do so, use the icons underneath the Video Player or the Share screen button. This allows you to customize the video by setting the language, as well as the start and end time in a time code format. You can then share the video using The TINY URL generator or by clicking on the Social Media icons.<br><br><strong>Embed Videos</strong><br>To integrate videos on your website, click the Embed screen button. The Embed screen on the Player allows you to set the language, start and end time, as well as the width and the height of the player in pixels. You can choose an auto play option. A customized embed code is generated according to the options selected.<br><strong>Info Screen</strong><br>To get more information about the video from the corporate video player, push the info button. The pop-up window will show you additional information relevant to the clip.<br><strong>Related Videos</strong><br>Once the video has finished playing, related items will appear integrated in the player, as well as showing up beneath the Video Player under the title 'Related media'.<br><strong>Shotlist Viewer</strong><br>Some videos, like stockshots or press conferences, have a shotlist option. You can follow the integrated shotlist by pushing this button. This way, the shotlist will appear on the screen as long as the video is playing. When you click on the shotlist, the detailed shotlist will open in a new tab and give you information about each shot of the video: start time, duration and description.<br><strong>Language Selection</strong><br>Watch out for this symbol. The Language Selector button allows you to change the language. You can also change the language underneath the video player.<br><strong>Subtitles</strong>The Language Selector button with the three dots is for the subtitles.<br><strong>Basic Options</strong><br>Here you can control the volume of the video, choose the full screen option and use the slider in the control bar to select the right moment on the timeline.<br><strong>Downloading Files</strong><br>After registering on the portal you can download video files in High Resolution for broadcasting, Low Resolution for web use, or you can just download the MP3 audio file for radio. You can also select the language of the downloaded file.<BR><strong>Terms of Use</strong><br>All use of the portal content is free of charge for EU-related information and education purposes. It enables you to have broadcast quality files covering the activities of the European Union Institutions.",
+ 							"FR": ""
+ 						},
+ 						"media_json": {
+ 							"MED": {
+ 								"PATH": ""
+ 							},
+ 							"LOW": {
+ 								"PATH": ""
+ 							},
+ 							"HIGH": {
+ 								"PATH": ""
+ 							}
+ 						},
+ 						"media": []
+ 					}
+ 				]
+ 			},
+ 			{
+ 				"ref": "M-000004",
+ 				"titles_json": {
+ 					"FR": "",
+ 					"EN": "Languages covered"
+ 				},
+ 				"description_json": {
+ 					"FR": "",
+ 					"EN": ""
+ 				},
+ 				"media_json": {
+ 					"MED": {
+ 						"PATH": ""
+ 					},
+ 					"LOW": {
+ 						"PATH": ""
+ 					},
+ 					"HIGH": {
+ 						"PATH": ""
+ 					}
+ 				},
+ 				"type": "MEDIAGROUP",
+ 				"chapters_json": [{
+ 					"titles_json": {
+ 						"EN": "",
+ 						"FR": ""
+ 					},
+ 					"description_json": {
+ 						"EN": "Live events are generally covered in the original language plus simultaneous translation into all EU languages when available. Occasionally other languages are provided through additional audio channels as and when required. The original (international) audio sound is transmitted when a particular language is not available. <br>News footage and video stockshot material are broadcast with natural sound only. <br><br><strong>Always refer to the EbS schedule for a list of the languages available for each transmission. </strong><br>Very few satellite TV channels have multiple audio channels and it is possible that certain satellite receivers may behave in an unpredictable manner. If your receiver is not performing as expected, please email us.",
+ 						"FR": ""
+ 					},
+ 					"media_json": {
+ 						"MED": {
+ 							"PATH": ""
+ 						},
+ 						"LOW": {
+ 							"PATH": ""
+ 						},
+ 						"HIGH": {
+ 							"PATH": ""
+ 						}
+ 					},
+ 					"media": []
+ 				}]
+ 			},
+ 			{
+ 				"ref": "M-000005",
+ 				"titles_json": {
+ 					"FR": "",
+ 					"EN": "Contact"
+ 				},
+ 				"description_json": {
+ 					"FR": "",
+ 					"EN": ""
+ 				},
+ 				"media_json": {
+ 					"MED": {
+ 						"PATH": ""
+ 					},
+ 					"LOW": {
+ 						"PATH": ""
+ 					},
+ 					"HIGH": {
+ 						"PATH": ""
+ 					}
+ 				},
+ 				"type": "MEDIAGROUP",
+ 				"chapters_json": [{
+ 					"titles_json": {
+ 						"EN": "",
+ 						"FR": ""
+ 					},
+ 					"description_json": {
+ 						"EN": "Europe by Satellite<br>Berlaymont 4/289<br>Tel. +32 2 296 41 06<br>Fax +32 2 230 12 80<br>Email: newsdesk@ec.europa.eu",
+ 						"FR": ""
+ 					},
+ 					"media_json": {
+ 						"MED": {
+ 							"PATH": ""
+ 						},
+ 						"LOW": {
+ 							"PATH": ""
+ 						},
+ 						"HIGH": {
+ 							"PATH": ""
+ 						}
+ 					},
+ 					"media": []
+ 				}]
+ 			}
+ 		]
+ 	}]
+ }

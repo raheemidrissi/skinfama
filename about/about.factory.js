@@ -1,0 +1,20 @@
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+//////////////Statistic  :   ////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+avservicesApp.factory('statisticFactory', function ($http, envConstants) {
+return {
+getStatistics: function (params) {
+var statistics = {};
+var MyPromise = $http({
+ method: 'jsonp',
+ url: envConstants.urlWebanalytics + '?module=API&format=JSON&token_auth=f6b6eff2210305f014cb331692a0ab12', //token_auth de RV
+ params: params
+ });
+return MyPromise.then(function(response){
+	console.log(response);
+	return response.data;
+});
+}
+};
+});
+

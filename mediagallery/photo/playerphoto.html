@@ -1,0 +1,6 @@
+	<h1>{{reportages[0].title | translateDB}}</h1>
+	<h3>{{reportages[0].legend | translateDB}}</h3>
+	<gallery-open-carousel items="reportages" />
+    <!--  RELATED -->
+	<div ui-view="relatedVideos" autoscroll="true"></div>
+	<div ui-view="relatedPhotos" autoscroll="true"></div>
