@@ -1,8 +1,0 @@
-	<div class="row">
-        <div class="thumbnail col-sm-6 col-md-4" style="height: 250px; " ng-repeat="focus in focusList">
-        	<img width="300" height="180" ng-src="{{focus.thumb}}" alt="" />
-            <div class="caption">
-            	<p><a ui-sref="language.featured({ref:focus.id})">{{focus.title|translateDB | htmlToPlaintext}}</a></p>
-            </div>
-        </div>
-    </div>

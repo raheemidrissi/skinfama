@@ -1,0 +1,14 @@
+<nav id="top">
+    <div class="nav-wrapper">
+      <a [routerLink]="['/index']" class="brand-logo center">
+        <img src="/assets/img/rabbit-rescue.png" />
+      </a>
+      <ul id="nav-mobile" class="left hide-on-med-and-down">
+        <li><a  [routerLink]="['/contact']" >Contact Us</a></li>
+        <li><a  [routerLink]="['/rabbits']" >Rabbits Rescued</a></li>
+        <li><a  [routerLink]="['/rabbits/create']">Add A Rabbit</a></li>
+      </ul>
+    </div>
+  </nav> 
+
+  <router-outlet></router-outlet>

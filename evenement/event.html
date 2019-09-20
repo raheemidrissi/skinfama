@@ -1,8 +1,0 @@
-<h1>{{event.title|translateDB}}</h1>
-<p>{{event.description|translateDB}}</p>
-		            <div class="ecl-row">
-		                <vignette-detail  class="ecl-col-lg-4" media="media" type="type" dir-paginate="media in event.medias | filter:q | itemsPerPage: nbResultPerPage" current-page="index" total-items="event.nbCount" pagination-id="searchPagination"></vignette-detail>
-		            </div>
-		            <nav class="ecl-pager__wrapper" aria-label="pagination">
-               			<dir-pagination-controls boundary-links="true" max-size="9" pagination-id="searchPagination" on-page-change="changePage(newPageNumber)"></dir-pagination-controls>
-            		</nav>
